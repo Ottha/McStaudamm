@@ -1,6 +1,5 @@
 #!/usr/bin/env bash
 
-su - minecraft
 echo "Removing old JARs"
 find ../. -maxdepth 1 -name "*.jar" -exec rm -f {} \;
 echo "Fetching latest BuildTools version"
