@@ -7,7 +7,8 @@ echo $SPIGOT_JAR
 
 case "$1" in
         start)
-                screen -S minecraft_server java -Xms512M -Xmx2048M -XX:MaxPermSize=512M -jar $SPIGOT_JAR
+                screen -S minecraft_server
+                java -Xms512M -Xmx2048M -XX:MaxPermSize=512M -jar $SPIGOT_JAR
                 echo "Server wird gestartet, screen -r eingeben um den Serverlog anzuzeigen."
                 ;;
         stop)
