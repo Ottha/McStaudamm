@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 
 cd ..
-SPIGOT_JAR=$(find . -maxdepth 1 -name 'spigot-*.jar');
+SPIGOT_JAR=$(find * -maxdepth 1 -name 'spigot-*.jar');
 echo "jar file found:"
 echo $SPIGOT_JAR
 
