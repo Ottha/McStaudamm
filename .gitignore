@@ -1,6 +1,8 @@
 /.idea
 /McStaudamm.iml
-/plugins/dynmap/web
+/plugins/dynmap/web/tiles/*
+!/plugins/dynmap/web/tiles/_markers_
+!/plugins/dynmap/web/tiles/faces
 /mstore
 /Mandoras_the_end
 /Mandoras_nether
