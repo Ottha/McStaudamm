@@ -1,0 +1,28 @@
+users:
+  4a1c377e-2d2a-4f8e-966c-8500d002da28:
+    lastname: null
+    group: Builder
+    subgroups: []
+    permissions: []
+    info:
+      Name: Simmel_87
+  5df427f2-1638-4c5e-aebc-1ccfa12a31fe:
+    lastname: xFritschi
+    group: Builder
+    subgroups: []
+    permissions: []
+  ElgarL:
+    group: Moderator
+    subgroups: []
+    permissions:
+    - groupmanager.noofflineperms
+  KHobbits:
+    group: Moderator
+    subgroups: []
+    permissions:
+    - groupmanager.noofflineperms
+  snowleo:
+    group: Builder
+    subgroups: []
+    permissions:
+    - groupmanager.noofflineperms

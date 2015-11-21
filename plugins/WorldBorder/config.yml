@@ -1,0 +1,33 @@
+cfg-version: 11
+message: '&cYou have reached the edge of this world.'
+round-border: false
+debug-mode: false
+whoosh-effect: true
+portal-redirection: true
+knock-back-dist: 3.0
+timer-delay-ticks: 5
+remount-delay-ticks: 0
+dynmap-border-enabled: true
+dynmap-border-message: The border of the world.
+player-killed-bad-spawn: false
+deny-enderpearl: true
+fill-autosave-frequency: 30
+bypass-list-uuids:
+- 08c5cdec-128e-42b3-9f81-080c4cb7c486
+- b5e5d590-1ee0-40f2-ad2b-75f4fd60bd23
+- 5df427f2-1638-4c5e-aebc-1ccfa12a31fe
+fill-memory-tolerance: 500
+prevent-block-place: false
+worlds:
+  Mandoras:
+    x: -1734.5
+    z: -9092.5
+    radiusX: 5000
+    radiusZ: 5000
+    wrapping: false
+  Tarlion:
+    x: 72.58239882906037
+    z: 419.59234679902954
+    radiusX: 1000
+    radiusZ: 1000
+    wrapping: false

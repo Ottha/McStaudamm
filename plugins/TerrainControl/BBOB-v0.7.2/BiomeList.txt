@@ -1,0 +1,23 @@
+Ocean
+Plains
+Desert
+Extreme Hills
+Forest
+Taiga
+Swampland
+River
+Hell
+Sky
+FrozenOcean
+FrozenRiver
+Ice Plains
+Ice Mountains
+MushroomIsland
+MushroomIslandShore
+Beach
+DesertHills
+ForestHills
+TaigaHills
+Extreme Hills Edge
+Jungle
+JungleHills

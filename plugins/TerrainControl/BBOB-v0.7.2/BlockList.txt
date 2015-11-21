@@ -1,0 +1,120 @@
+0:Air:
+1:Stone:
+2:Grass:
+3:Dirt:
+4:Cobblestone:
+5:Wood Plank:0#Regular,1#Pine,2#Birch,3#Jungle
+6:Sapling:0#Regular,1#Pine,2#Birch,3#Jungle
+7:Bedrock:
+8:Water, Moving:1#12%,2#25%,3#37%,4#50%,5#62%,6#75%,7#87%,8#Falling
+9:Water:
+10:Lava, Moving:2#25%,4#50%,6#75%,8#Falling
+11:Lava:
+12:Sand:
+13:Gravel:
+14:Ore, Gold:
+15:Ore, Iron:
+16:Ore, Coal:
+17:Wood:0#Regular,1#Pine,2#Birch,3#Jungle
+18:Leaves:0#Regular,1#Pine,2#Birch,3#Jungle
+19:Sponge:
+20:Block, Glass:
+21:Ore, Lapis Lazuli:
+22:Block, Lapis Lazuli:
+23:Dispenser:2#North,3#South,4#West,5#East
+24:Sandstone:0#Normal,1#Hieroglyphic,2#Smooth
+25:Block, Note:
+26:Bed:0#Foot South,1#Foot West,2#Food North,3#Food East,8#Head South,9#Head West,10#Head North,11#Head East,
+27:Rail, Powered:0#Off North-South,1#Off East-West,2#Off Ascending East,3#Off Ascending West,4#Off Ascending North,5#Off Ascending South,8#On North-South,9#On East-West,10#On Ascending East,11#On Ascending West,12#On Ascending North,13#On Ascending South
+28:Rail, Detector:0#North-South,1#East-West,2#Ascending East,3#Ascending West,4#Ascending North,5#Ascending South
+29:Piston, Sticky:0#Down,1#Up,2#North,3#South,4#West,5#East,8#Extended Down,9#Extended Up,10#Extended North,11#Extended South,12#Extended West,13#Extended East
+30:Cobweb:
+31:Tall Grass:0#Dead Shrub,1#Wild Grass,2#Fern
+32:Bush, Dead:
+33:Piston:0#Down,1#Up,2#North,3#South,4#West,5#East,8#Extended Down,9#Extended Up,10#Extended North,11#Extended South,12#Extended West,13#Extended East
+34:Piston, Head:0#Down,1#Up,2#North,3#South,4#West,5#East,8#Sticky Down,9#Sticky Up,10#Sticky North,11#Sticky South,12#Sticky West,13#Sticky East
+35:Wool:0#White,1#Orange,2#Magenta,3#Light Blue,4#Yellow,5#Lime,6#Pink,7#Gray,8#Light Gray,9#Cyan,10#Purple,11#Blue,12#Brown,13#Green,14#Red,15#Black
+37:Dandelion:
+38:Rose:
+39:Mushroom, Brown:
+40:Mushroom, Red:
+41:Block, Gold:
+42:Block, Iron:
+43:Slab, Double:0#Stone,1#Sandstone,2#Wood,3#Cobblestone,4#Brick,5#Stone Brick 
+44:Slab:0#Stone,1#Sandstone,2#Wood,3#Cobblestone,4#Brick,5#Stone Brick,8#Upsidedown Stone,9#Upsidedown Sandstone,10#Upsidedown Wood,11#Upsidedown Cobblestone,12#Upsidedown Brick,13#Upsidedown Stone Brick
+45:Brick:
+46:Dynamite:
+47:Bookcase:
+48:Cobblestone, Mossy:
+49:Obsidian:
+50:Torch:1#East,2#West,3#South,4#North,5#Floor
+51:Fire:0#Normal File,15#Eternal Fire
+52:Monster Spawner:
+53:Stairs, Wood:0#Ascending East,1#Ascending West,2#Ascending South,3#Ascending North,4#Upsidedown Ascending East,5#Upsidedown Ascending West,6#Upsidedown Ascending South,7#Upsidedown Ascending North
+54:Chest:2#North,3#South,4#West,5#East
+55:Redstone Wire:
+56:Ore, Diamond:
+57:Block, Diamond:
+58:Table, Crafting:
+59:Crops:0#Planted,1#Sprouted,2#Young,3#Growing,4#Established,5#Tall,6#Mature,7#Ready to Harvest
+60:Farmland:0#Dry,1#Dewy,2#Damp,3#Moist,4#Wet,5#Watered,6#Sodden,7#Soaked,8#Saturated
+61:Furnace:2#North,3#South,4#West,5#East
+63:Sign Post:0#South,1#South-SouthWest,2#SouthWest,3#West-SouthWest,4#West,5#West-NorthWest,6#NorthWest,7#North-NorthWest,8#North,9#North-NorthEast,10#NorthEast,11#East-NorthEast,12#East,13#East-SouthEast,14#SouthEast,15#South-SouthEast
+64:Door, Wood:0#Closed Bottom NorthEast,1#Closed Bottom SouthEast,2#Closed Bottom SouthWest,3#Closed Bottom NorthWest,4#Open Bottom NorthEast,5#Open Bottom SouthEast,6#Open Bottom SouthWest,7#Open Bottom NorthWest,8#Closed Top NorthEast,9#Closed Top SouthEast,10#Closed Top SouthWest,11#Closed Top NorthWest,12#Open Top NorthEast,13#Open Top SouthEast,14#Open Top SouthWest,15#Open Top NorthWest
+65:Ladder:2#North,3#South,4#West,5#East
+66:Rail:0#North-South,1#East-West,2#Ascending East,3#Ascending West,4#Ascending North,5#Ascending South,6#East-South,7#West-South,8#West-North,9#East-North
+67:Stairs, Cobblestone:0#Ascending East,1#Ascending West,2#Ascending South,3#Ascending North,4#Upsidedown Ascending East,5#Upsidedown Ascending West,6#Upsidedown Ascending South,7#Upsidedown Ascending North
+68:Sign, Wall:2#North,3#South,4#West,5#East
+69:Lever:1#South Off,2#North Off,3#West Off,4#East Off,5#Floor South Off,6#Floor East Off,9#South On,10#North On,11#West On,12#East On,13#Floor South On,14#Floor East On
+70:Pressure Plate, Stone:
+71:Door, Iron:0#Closed Bottom NorthEast,1#Closed Bottom SouthEast,2#Closed Bottom SouthWest,3#Closed Bottom NorthWest,4#Open Bottom NorthEast,5#Open Bottom SouthEast,6#Open Bottom SouthWest,7#Open Bottom NorthWest,8#Closed Top NorthEast,9#Closed Top SouthEast,10#Closed Top SouthWest,11#Closed Top NorthWest,12#Open Top NorthEast,13#Open Top SouthEast,14#Open Top SouthWest,15#Open Top NorthWest
+72:Pressure Plate, Wood:
+73:Ore, Redstone:
+76:Torch, Redstone:1#East,2#West,3#South,4#North,5#Floor
+77:Button, Stone:1#South,2#North,3#West,4#East
+78:Snow Layer:
+79:Ice:
+80:Block, Snow:
+81:Cactus:
+82:Block, Clay:
+83:Sugar Cane:
+84:Jukebox:
+85:Fence:
+86:Pumpkin:0#South,1#West,2#North,3#East
+87:Netherrack:
+88:Soul Sand:
+89:Glowstone:
+90:Portal, Nether:
+91:Jack-O-Lantern:0#South,1#West,2#North,3#East
+92:Cake:0#0 Bites Eaten,1#1 Bites Eaten,2#2 Bites Eaten,3#3 Bites Eaten,4#4 Bites Eaten,5#5 Bites Eaten
+93:Redstone Repeater Off:0#North Delay 1,1#East Delay 1,2#South Delay 1,3#West Delay 1,4#North Delay 2,5#East Delay 2,6#South Delay 2,7#West Delay 2,8#North Delay 3,9#East Delay 3,10#South Delay 3,11#West Delay 3,12#North Delay 4,13#East Delay 4,14#South Delay 4,15#West Delay 4
+94:Redstone Repeater On:0#North Delay 1,1#East Delay 1,2#South Delay 1,3#West Delay 1,4#North Delay 2,5#East Delay 2,6#South Delay 2,7#West Delay 2,8#North Delay 3,9#East Delay 3,10#South Delay 3,11#West Delay 3,12#North Delay 4,13#East Delay 4,14#South Delay 4,15#West Delay 4
+96:Trapdoor:0#South,1#North,2#East,3#West
+97:Block, Silverfish:0#Stone,1#Cobblestone,2#Brick Stone
+98:Brick, Stone:0#Normal,1#Mossy,2#Cracked,3#Circle
+99:Mushroom, Brown, Huge:0#Flesh,1#Top NorthWest,2#Top North,3#Top NorthEast,4#Top West,5#Top,6#Top East,7#Top SouthWest,8#Top South,9#Top SouthEast,10#Stem
+100:Mushroom, Red, Huge:0#Flesh,1#Top NorthWest,2#Top North,3#Top NorthEast,4#Top West,5#Top,6#Top East,7#Top SouthWest,8#Top South,9#Top SouthEast,10#Stem
+101:Iron Bars:
+102:Glass Pane:
+103:Melon:
+104:Stem, Pumpkin:0#Planted,1#Sprouted,2#Young,3#Growing,4#Established,5#Tall,6#Mature,7#Ready to Harvest
+105:Stem, Melon:0#Planted,1#Sprouted,2#Young,3#Growing,4#Established,5#Tall,6#Mature,7#Ready to Harvest
+106:Vines:1#South,2#West,3#SouthWest,4#North,5#SouthNorth,6#WestNorth,7#SouthWestNorth,8#East,9#SouthEast,10#WestEast,11#SouthWestEast,12#NorthEast,13#SouthNorthEast,14#WestNorthEast,15#SouthWestNorthEast
+107:Fence, Wood, Gate:0#Closed South,1#Closed West,2#Closed North,3#Closed East,4#Open South,5#Open West,6#Open North,7#Open East
+108:Stairs, Brick:0#Ascending East,1#Ascending West,2#Ascending South,3#Ascending North,4#Upsidedown Ascending East,5#Upsidedown Ascending West,6#Upsidedown Ascending South,7#Upsidedown Ascending North
+109:Stairs, Brick, Stone:0#Ascending East,1#Ascending West,2#Ascending South,3#Ascending North,4#Upsidedown Ascending East,5#Upsidedown Ascending West,6#Upsidedown Ascending South,7#Upsidedown Ascending North
+110:Mycelium:
+111:Lilly Pad:
+112:Brick, Nether:
+113:Fence, Nether Brick:
+114:Stairs, Brick, Nether:0#Ascending East,1#Ascending West,2#Ascending South,3#Ascending North,4#Upsidedown Ascending East,5#Upsidedown Ascending West,6#Upsidedown Ascending South,7#Upsidedown Ascending North
+115:Nether Wart:0#Planted,1#Young,2#Established,3#Ready to Harvest
+116:Table, Enchantment:
+117:Brewing Stand:
+118:Cauldron:0#Empty,1#1 Use,2#2 Uses,3#Full (3 Uses)
+119:Portal, End:
+120:Portal, End Frame:0#Empty South,1#Empty West,2#Empty North,3#Empty East,4#Filled South,5#Filled West,6#Filled North,7#Filled East
+121:Stone, End:
+122:Dragon Egg:
+123:Restone Lamp Off:
+124:Restone Lamp On:
