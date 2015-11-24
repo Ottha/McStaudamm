@@ -396,7 +396,7 @@ BiomeObjects:
 StrongholdsEnabled: false
 
 # Whether an Ocean Monument can be placed in this biome.
-OceanMonumentsEnabled: true
+OceanMonumentsEnabled: false
 
 # Whether a Nether Fortress can start in this biome. Might extend to neighbor biomes.
 NetherFortressesEnabled: true
