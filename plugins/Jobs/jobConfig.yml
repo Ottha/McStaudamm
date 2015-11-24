@@ -1,0 +1,870 @@
+# Jobs configuration.
+# 
+# Stores information about each job.
+# 
+# For example configurations, visit http://dev.bukkit.org/server-mods/jobs/.
+
+Jobs:
+  Woodcutter:
+    fullname: Woodcutter
+    shortname: W
+    description: Earns money felling and planting trees. The higher your level is, the more Trees you can fell and plant in the Wilderness
+    ChatColour: GREEN
+    chat-display: full
+    leveling-progression-equation: 100*((1.13+(0.01*(numjobs-1)))^(joblevel-1))
+    income-progression-equation: baseincome*((1.05)^(joblevel-1))
+    experience-progression-equation: baseexperience*((1.05)^(joblevel-1))
+    Place:
+      SAPLING-0:
+        income: 8.0
+        experience: 8.0
+      SAPLING-1:
+        income: 9.0
+        experience: 9.0
+      SAPLING-2:
+        income: 10.0
+        experience: 10.0
+      SAPLING-3:
+        income: 11.0
+        experience: 11.0
+    Break:
+      LOG-0:
+        income: 4.0
+        experience: 4.0
+      LOG-1:
+        income: 5.0
+        experience: 5.0
+      LOG-2:
+        income: 6.0
+        experience: 6.0
+      LOG-3:
+        income: 7.0
+        experience: 7.0
+      SAPLING-0:
+        income: -8.0
+        experience: -8.0
+      SAPLING-1:
+        income: -9.0
+        experience: -9.0
+      SAPLING-2:
+        income: -10.0
+        experience: -10.0
+      SAPLING-3:
+        income: -11.0
+        experience: -11.0
+  Miner:
+    fullname: Miner
+    shortname: M
+    description: Earns money mining minerals and ores. The higher your level is, the more ores you can mine in the Wilderness
+    ChatColour: DARK_GRAY
+    chat-display: full
+    leveling-progression-equation: 100*((1.13+(0.01*(numjobs-1)))^(joblevel-1))
+    income-progression-equation: baseincome*((1.05)^(joblevel-1))
+    experience-progression-equation: baseexperience*((1.05)^(joblevel-1))
+    Break:
+      STONE:
+        income: 1.0
+        experience: 1.0
+      COAL_ORE:
+        income: 2.0
+        experience: 2.0
+      IRON_ORE:
+        income: 3.0
+        experience: 3.0
+      GOLD_ORE:
+        income: 4.0
+        experience: 4.0
+      LAPIS_ORE:
+        income: 5.0
+        experience: 5.0
+      EMERALD_ORE:
+        income: 5.0
+        experience: 5.0
+      GLOWING_REDSTONE_ORE:
+        income: 6.0
+        experience: 6.0
+      DIAMOND_ORE:
+        income: 7.0
+        experience: 7.0
+      GLOWSTONE:
+        income: 8.0
+        experience: 8.0
+      MOSSY_COBBLESTONE:
+        income: 9.0
+        experience: 9.0
+      OBSIDIAN:
+        income: 10.0
+        experience: 10.0
+    Place:
+      RAILS:
+        income: 2.0
+        experience: 2.0
+  Digger:
+    fullname: Digger
+    shortname: D
+    description: Earns money for terraforming the world. The higher your level, the more things you can dig out of the Wilderness
+    ChatColour: GOLD
+    chat-display: full
+    leveling-progression-equation: 100*((1.13+(0.01*(numjobs-1)))^(joblevel-1))
+    income-progression-equation: baseincome*((1.05)^(joblevel-1))
+    experience-progression-equation: baseexperience*((1.05)^(joblevel-1))
+    Break:
+      DIRT:
+        income: 2.0
+        experience: 2.0
+      GRASS:
+        income: 2.0
+        experience: 2.0
+      GRAVEL:
+        income: 6.0
+        experience: 6.0
+      SAND:
+        income: 8.0
+        experience: 8.0
+      CLAY:
+        income: 10.0
+        experience: 10.0
+  Farmer:
+    fullname: Farmer
+    shortname: Fa
+    description: Earns money farming crops. The higher your level, the mor corps you can harvest in the Wilderness
+    ChatColour: BLUE
+    chat-display: full
+    leveling-progression-equation: 100*((1.13+(0.01*(numjobs-1)))^(joblevel-1))
+    income-progression-equation: baseincome*((1.05)^(joblevel-1))
+    experience-progression-equation: baseexperience*((1.05)^(joblevel-1))
+    Break:
+      CROPS-7:
+        income: 2.0
+        experience: 2.0
+      SUGAR_CANE_BLOCK:
+        income: 4.0
+        experience: 4.0
+      PUMPKIN:
+        income: 6.0
+        experience: 6.0
+      MELON_BLOCK:
+        income: 8.0
+        experience: 8.0
+      CARROT-7:
+        income: 10.0
+        experience: 10.0
+      POTATO-7:
+        income: 12.0
+        experience: 12.0
+    Place:
+      CROPS-0:
+        income: 2.0
+        experience: 2.0
+      SUGAR_CANE_BLOCK:
+        income: 4.0
+        experience: 4.0
+      PUMPKIN_STEM:
+        income: 6.0
+        experience: 6.0
+      MELON_STEM:
+        income: 8.0
+        experience: 8.0
+      CARROT-0:
+        income: 10.0
+        experience: 10.0
+      POTATO-0:
+        income: 12.0
+        experience: 12.0
+  Hunter:
+    fullname: Hunter
+    shortname: H
+    description: Earns money killing animals and monsters.
+    ChatColour: RED
+    chat-display: full
+    leveling-progression-equation: 100*((1.13+(0.01*(numjobs-1)))^(joblevel-1))
+    income-progression-equation: baseincome*((1.05)^(joblevel-1))
+    experience-progression-equation: baseexperience*((1.05)^(joblevel-1))
+    Craft:
+      BOW:
+        income: 10.0
+        experience: 10.0
+      ARROW:
+        income: 2.0
+        experience: 2.0
+    Kill:
+      Chicken:
+        income: 2.5
+        experience: 2.5
+      Cow:
+        income: 2.5
+        experience: 2.5
+      Pig:
+        income: 2.5
+        experience: 2.5
+      Sheep:
+        income: 2.5
+        experience: 2.5
+      Wolf:
+        income: 5.0
+        experience: 5.0
+      Zombie:
+        income: 8.0
+        experience: 8.0
+      Spider:
+        income: 10.0
+        experience: 10.0
+      Skeleton:
+        income: 10.0
+        experience: 10.0
+      Creeper:
+        income: 12.0
+        experience: 12.0
+      Pigzombie:
+        income: 14.0
+        experience: 14.0
+      Witch:
+        income: 16.0
+        experience: 16.0
+      Enderman:
+        income: 20.0
+        experience: 20.0
+      Giant:
+        income: 30.0
+        experience: 30.0
+      Ghast:
+        income: 40.0
+        experience: 40.0
+      Blaze:
+        income: 50.0
+        experience: 50.0
+      Wither:
+        income: 200.0
+        experience: 200.0
+      EnderDragon:
+        income: 500.0
+        experience: 500.0
+  Fisherman:
+    fullname: Fisherman
+    shortname: Fi
+    description: Earns money from fishing.
+    ChatColour: AQUA
+    chat-display: full
+    leveling-progression-equation: 100*((1.13+(0.01*(numjobs-1)))^(joblevel-1))
+    income-progression-equation: baseincome*((1.05)^(joblevel-1))
+    experience-progression-equation: baseexperience*((1.05)^(joblevel-1))
+    Craft:
+      BOAT:
+        income: 10.0
+        experience: 10.0
+    Fish:
+      RAW_FISH:
+        income: 4.0
+        experience: 4.0
+    Kill:
+      Squid:
+        income: 10.0
+        experience: 10.0
+  Smith:
+    fullname: Smith
+    shortname: S
+    description: Earns money from crafting and repairing weapons and armory.
+    ChatColour: DARK_PURPLE
+    chat-display: full
+    leveling-progression-equation: 100*((1.13+(0.01*(numjobs-1)))^(joblevel-1))
+    income-progression-equation: baseincome*((1.05)^(joblevel-1))
+    experience-progression-equation: baseexperience*((1.05)^(joblevel-1))
+    Craft:
+      WOOD_SWORD:
+        income: 1.0
+        experience: 1.0
+      STONE_SWORD:
+        income: 2.0
+        experience: 2.0
+      LEATHER_BOOTS:
+        income: 2.0
+        experience: 2.0
+      LEATHER_HELMET:
+        income: 2.0
+        experience: 2.0
+      LEATHER_CHESTPLATE:
+        income: 3.0
+        experience: 3.0
+      LEATHER_LEGGINGS:
+        income: 3.0
+        experience: 3.0
+      IRON_SWORD:
+        income: 4.0
+        experience: 4.0
+      IRON_BOOTS:
+        income: 5.0
+        experience: 5.0
+      IRON_HELMET:
+        income: 5.0
+        experience: 5.0
+      IRON_CHESTPLATE:
+        income: 6.0
+        experience: 6.0
+      IRON_LEGGINGS:
+        income: 6.0
+        experience: 6.0
+      GOLD_SWORD:
+        income: 6.0
+        experience: 6.0
+      GOLD_BOOTS:
+        income: 7.0
+        experience: 7.0
+      GOLD_HELMET:
+        income: 7.0
+        experience: 7.0
+      GOLD_CHESTPLATE:
+        income: 8.0
+        experience: 8.0
+      GOLD_LEGGINGS:
+        income: 8.0
+        experience: 8.0
+      DIAMOND_SWORD:
+        income: 10.0
+        experience: 10.0
+      DIAMOND_BOOTS:
+        income: 11.0
+        experience: 11.0
+      DIAMOND_HELMET:
+        income: 11.0
+        experience: 11.0
+      DIAMOND_CHESTPLATE:
+        income: 12.0
+        experience: 12.0
+      DIAMOND_LEGGINGS:
+        income: 12.0
+        experience: 12.0
+    Repair:
+      WOOD_SWORD:
+        income: 1.0
+        experience: 1.0
+      STONE_SWORD:
+        income: 2.0
+        experience: 2.0
+      LEATHER_BOOTS:
+        income: 2.0
+        experience: 2.0
+      LEATHER_HELMET:
+        income: 2.0
+        experience: 2.0
+      LEATHER_CHESTPLATE:
+        income: 3.0
+        experience: 3.0
+      LEATHER_LEGGINGS:
+        income: 3.0
+        experience: 3.0
+      IRON_SWORD:
+        income: 4.0
+        experience: 4.0
+      IRON_BOOTS:
+        income: 5.0
+        experience: 5.0
+      IRON_HELMET:
+        income: 5.0
+        experience: 5.0
+      IRON_CHESTPLATE:
+        income: 6.0
+        experience: 6.0
+      IRON_LEGGINGS:
+        income: 6.0
+        experience: 6.0
+      GOLD_SWORD:
+        income: 6.0
+        experience: 6.0
+      GOLD_BOOTS:
+        income: 7.0
+        experience: 7.0
+      GOLD_HELMET:
+        income: 7.0
+        experience: 7.0
+      GOLD_CHESTPLATE:
+        income: 8.0
+        experience: 8.0
+      GOLD_LEGGINGS:
+        income: 8.0
+        experience: 8.0
+      DIAMOND_SWORD:
+        income: 10.0
+        experience: 10.0
+      DIAMOND_BOOTS:
+        income: 11.0
+        experience: 11.0
+      DIAMOND_HELMET:
+        income: 11.0
+        experience: 11.0
+      DIAMOND_CHESTPLATE:
+        income: 12.0
+        experience: 12.0
+      DIAMOND_LEGGINGS:
+        income: 12.0
+        experience: 12.0
+  Toolsmaker:
+    fullname: Toolsmaker
+    shortname: To
+    description: Earns money from crafting and repairing tools.
+    ChatColour: YELLOW
+    chat-display: full
+    leveling-progression-equation: 100*((1.13+(0.01*(numjobs-1)))^(joblevel-1))
+    income-progression-equation: baseincome*((1.05)^(joblevel-1))
+    experience-progression-equation: baseexperience*((1.05)^(joblevel-1))
+    Craft:
+      WOOD_SPADE:
+        income: 1.0
+        experience: 1.0
+      WOOD_HOE:
+        income: 1.0
+        experience: 1.0
+      WOOD_AXE:
+        income: 1.0
+        experience: 1.0
+      WOOD_PICKAXE:
+        income: 1.0
+        experience: 1.0
+      STONE_SPADE:
+        income: 2.0
+        experience: 2.0
+      STONE_HOE:
+        income: 2.0
+        experience: 2.0
+      STONE_AXE:
+        income: 3.0
+        experience: 3.0
+      STONE_PICKAXE:
+        income: 3.0
+        experience: 3.0
+      IRON_SPADE:
+        income: 3.0
+        experience: 3.0
+      IRON_HOE:
+        income: 3.0
+        experience: 3.0
+      IRON_AXE:
+        income: 4.0
+        experience: 4.0
+      IRON_PICKAXE:
+        income: 4.0
+        experience: 4.0
+      BUCKET:
+        income: 4.0
+        experience: 4.0
+      SHEARS:
+        income: 4.0
+        experience: 4.0
+      GOLD_SPADE:
+        income: 5.0
+        experience: 5.0
+      GOLD_HOE:
+        income: 5.0
+        experience: 5.0
+      GOLD_AXE:
+        income: 6.0
+        experience: 6.0
+      GOLD_PICKAXE:
+        income: 6.0
+        experience: 6.0
+      DIAMOND_SPADE:
+        income: 8.0
+        experience: 8.0
+      DIAMOND_HOE:
+        income: 8.0
+        experience: 8.0
+      DIAMOND_AXE:
+        income: 10.0
+        experience: 10.0
+      DIAMOND_PICKAXE:
+        income: 10.0
+        experience: 10.0
+    Repair:
+      WOOD_SPADE:
+        income: 1.0
+        experience: 1.0
+      WOOD_HOE:
+        income: 1.0
+        experience: 1.0
+      WOOD_AXE:
+        income: 1.0
+        experience: 1.0
+      WOOD_PICKAXE:
+        income: 1.0
+        experience: 1.0
+      STONE_SPADE:
+        income: 2.0
+        experience: 2.0
+      STONE_HOE:
+        income: 2.0
+        experience: 2.0
+      STONE_AXE:
+        income: 3.0
+        experience: 3.0
+      STONE_PICKAXE:
+        income: 3.0
+        experience: 3.0
+      IRON_SPADE:
+        income: 3.0
+        experience: 3.0
+      IRON_HOE:
+        income: 3.0
+        experience: 3.0
+      IRON_AXE:
+        income: 4.0
+        experience: 4.0
+      IRON_PICKAXE:
+        income: 4.0
+        experience: 4.0
+      BUCKET:
+        income: 4.0
+        experience: 4.0
+      SHEARS:
+        income: 4.0
+        experience: 4.0
+      GOLD_SPADE:
+        income: 5.0
+        experience: 5.0
+      GOLD_HOE:
+        income: 5.0
+        experience: 5.0
+      GOLD_AXE:
+        income: 6.0
+        experience: 6.0
+      GOLD_PICKAXE:
+        income: 6.0
+        experience: 6.0
+      DIAMOND_SPADE:
+        income: 8.0
+        experience: 8.0
+      DIAMOND_HOE:
+        income: 8.0
+        experience: 8.0
+      DIAMOND_AXE:
+        income: 10.0
+        experience: 10.0
+      DIAMOND_PICKAXE:
+        income: 10.0
+        experience: 10.0
+  Alchemist:
+    fullname: Alchemist
+    shortname: Al
+    description: Earns money by brewing potions and crafting ingredients.
+    ChatColour: LIGHT_PURPLE
+    chat-display: full
+    leveling-progression-equation: 100*((1.13+(0.01*(numjobs-1)))^(joblevel-1))
+    income-progression-equation: baseincome*((1.05)^(joblevel-1))
+    experience-progression-equation: baseexperience*((1.05)^(joblevel-1))
+    Craft:
+      GLASS_BOTTLE:
+        income: 2.0
+        experience: 2.0
+      CAULDRON:
+        income: 5.0
+        experience: 5.0
+      BREWING_STAND:
+        income: 10.0
+        experience: 10.0
+      FIREWORK_CHARGE:
+        income: 5.0
+        experience: 5.0
+      FERMENTED_SPIDER_EYE:
+        income: 5.0
+        experience: 5.0
+      MAGMA_CREAM:
+        income: 7.0
+        experience: 7.0
+      BLAZE_POWDER:
+        income: 7.0
+        experience: 7.0
+      SPECKLED_MELON:
+        income: 10.0
+        experience: 10.0
+      FIREBALL:
+        income: 10.0
+        experience: 10.0
+      POTION:
+        income: 10.0
+        experience: 10.0
+      EYE_OF_ENDER:
+        income: 50.0
+        experience: 50.0
+      FIREWORK:
+        income: 20.0
+        experience: 20.0
+    Brew:
+      NETHER_STALK:
+        income: 10.0
+        experience: 10.0
+      REDSTONE:
+        income: 10.0
+        experience: 10.0
+      GLOWSTONE_DUST:
+        income: 10.0
+        experience: 10.0
+      SPIDER_EYE:
+        income: 10.0
+        experience: 10.0
+      FERMENTED_SPIDER_EYE:
+        income: 10.0
+        experience: 10.0
+      BLAZE_POWDER:
+        income: 10.0
+        experience: 10.0
+      SUGAR:
+        income: 10.0
+        experience: 10.0
+      SPECKLED_MELON:
+        income: 10.0
+        experience: 10.0
+      MAGMA_CREAM:
+        income: 10.0
+        experience: 10.0
+      GHAST_TEAR:
+        income: 10.0
+        experience: 10.0
+  Tinker:
+    fullname: Tinker
+    shortname: Ti
+    description: Earns money from crafting complex mechanics.
+    ChatColour: RED
+    chat-display: full
+    leveling-progression-equation: 100*((1.13+(0.01*(numjobs-1)))^(joblevel-1))
+    income-progression-equation: baseincome*((1.05)^(joblevel-1))
+    experience-progression-equation: baseexperience*((1.05)^(joblevel-1))
+    Craft:
+      REDSTONE_TORCH_OFF:
+        income: 1.0
+        experience: 1.0
+      FLINT_AND_STEEL:
+        income: 2.0
+        experience: 2.0
+      COMPASS:
+        income: 3.0
+        experience: 3.0
+      DISPENSER:
+        income: 3.0
+        experience: 3.0
+      PISTON_BASE:
+        income: 4.0
+        experience: 4.0
+      DIODE:
+        income: 5.0
+        experience: 5.0
+      POWERED_RAIL:
+        income: 5.0
+        experience: 5.0
+      WATCH:
+        income: 6.0
+        experience: 6.0
+      TRIPWIRE_HOOK:
+        income: 7.0
+        experience: 7.0
+      REDSTONE_LAMP_OFF:
+        income: 7.0
+        experience: 7.0
+      TNT:
+        income: 8.0
+        experience: 8.0
+      PISTON_STICKY_BASE:
+        income: 9.0
+        experience: 9.0
+      DETECTOR_RAIL:
+        income: 9.0
+        experience: 9.0
+      TRAPPED_CHEST:
+        income: 10.0
+        experience: 10.0
+      REDSTONE_COMPARATOR:
+        income: 11.0
+        experience: 11.0
+      HOPPER:
+        income: 11.0
+        experience: 11.0
+      DROPPER:
+        income: 12.0
+        experience: 12.0
+      ACTIVATOR_RAIL:
+        income: 13.0
+        experience: 13.0
+      NOTE_BLOCK:
+        income: 13.0
+        experience: 13.0
+      JUKEBOX:
+        income: 14.0
+        experience: 14.0
+      DAYLIGHT_DETECTOR:
+        income: 15.0
+        experience: 15.0
+      IRON_PLATE:
+        income: 16.0
+        experience: 16.0
+      GOLD_PLATE:
+        income: 16.0
+        experience: 16.0
+  Sorcerer:
+    fullname: Sorcerer
+    shortname: So
+    description: Earns money enchanting items and building magical tools.
+    ChatColour: DARK_BLUE
+    chat-display: full
+    leveling-progression-equation: 100*((1.13+(0.01*(numjobs-1)))^(joblevel-1))
+    income-progression-equation: baseincome*((1.05)^(joblevel-1))
+    experience-progression-equation: baseexperience*((1.05)^(joblevel-1))
+    Craft:
+      PAPER:
+        income: 1.0
+        experience: 1.0
+      BOOK:
+        income: 2.0
+        experience: 2.0
+      ENCHANTMENT_TABLE:
+        income: 10.0
+        experience: 10.0
+      BOOK_AND_QUILL:
+        income: 5.0
+        experience: 5.0
+      ENCHANTED_BOOK:
+        income: 10.0
+        experience: 10.0
+      ANVIL:
+        income: 10.0
+        experience: 10.0
+      BEACON:
+        income: 20.0
+        experience: 20.0
+      ENDER_CHEST:
+        income: 30.0
+        experience: 30.0
+    Enchant:
+      WOOD_SPADE:
+        income: 1.0
+        experience: 1.0
+      WOOD_HOE:
+        income: 1.0
+        experience: 1.0
+      WOOD_AXE:
+        income: 1.0
+        experience: 1.0
+      WOOD_PICKAXE:
+        income: 1.0
+        experience: 1.0
+      STONE_SPADE:
+        income: 2.0
+        experience: 2.0
+      STONE_HOE:
+        income: 2.0
+        experience: 2.0
+      STONE_AXE:
+        income: 3.0
+        experience: 3.0
+      STONE_PICKAXE:
+        income: 3.0
+        experience: 3.0
+      IRON_SPADE:
+        income: 3.0
+        experience: 3.0
+      IRON_HOE:
+        income: 3.0
+        experience: 3.0
+      IRON_AXE:
+        income: 4.0
+        experience: 4.0
+      IRON_PICKAXE:
+        income: 4.0
+        experience: 4.0
+      BUCKET:
+        income: 4.0
+        experience: 4.0
+      SHEARS:
+        income: 4.0
+        experience: 4.0
+      GOLD_SPADE:
+        income: 5.0
+        experience: 5.0
+      GOLD_HOE:
+        income: 5.0
+        experience: 5.0
+      GOLD_AXE:
+        income: 6.0
+        experience: 6.0
+      GOLD_PICKAXE:
+        income: 6.0
+        experience: 6.0
+      DIAMOND_SPADE:
+        income: 8.0
+        experience: 8.0
+      DIAMOND_HOE:
+        income: 8.0
+        experience: 8.0
+      DIAMOND_AXE:
+        income: 10.0
+        experience: 10.0
+      DIAMOND_PICKAXE:
+        income: 10.0
+        experience: 10.0
+      WOOD_SWORD:
+        income: 1.0
+        experience: 1.0
+      STONE_SWORD:
+        income: 2.0
+        experience: 2.0
+      LEATHER_BOOTS:
+        income: 2.0
+        experience: 2.0
+      LEATHER_HELMET:
+        income: 2.0
+        experience: 2.0
+      LEATHER_CHESTPLATE:
+        income: 3.0
+        experience: 3.0
+      LEATHER_LEGGINGS:
+        income: 3.0
+        experience: 3.0
+      IRON_SWORD:
+        income: 4.0
+        experience: 4.0
+      IRON_BOOTS:
+        income: 5.0
+        experience: 5.0
+      IRON_HELMET:
+        income: 5.0
+        experience: 5.0
+      IRON_CHESTPLATE:
+        income: 6.0
+        experience: 6.0
+      IRON_LEGGINGS:
+        income: 6.0
+        experience: 6.0
+      GOLD_SWORD:
+        income: 6.0
+        experience: 6.0
+      GOLD_BOOTS:
+        income: 7.0
+        experience: 7.0
+      GOLD_HELMET:
+        income: 7.0
+        experience: 7.0
+      GOLD_CHESTPLATE:
+        income: 8.0
+        experience: 8.0
+      GOLD_LEGGINGS:
+        income: 8.0
+        experience: 8.0
+      DIAMOND_SWORD:
+        income: 10.0
+        experience: 10.0
+      DIAMOND_BOOTS:
+        income: 11.0
+        experience: 11.0
+      DIAMOND_HELMET:
+        income: 11.0
+        experience: 11.0
+      DIAMOND_CHESTPLATE:
+        income: 12.0
+        experience: 12.0
+      DIAMOND_LEGGINGS:
+        income: 12.0
+        experience: 12.0
+  None:
+    fullname: None
+    shortname: N
+    ChatColour: WHITE
+    chat-display: none
+    leveling-progression-equation: 100*((1.13+(0.01*(numjobs-1)))^(joblevel-1))
+    income-progression-equation: baseincome*((1.05)^(joblevel-1))
+    experience-progression-equation: baseexperience*((1.05)^(joblevel-1))
