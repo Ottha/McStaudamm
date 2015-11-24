@@ -184,13 +184,13 @@ RiverCustomHeightControl: 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0,
 # +-----------------------------------------------------------------+ #
 #######################################################################
 
-# Change this to generate something else than stone in the biome. Doesn't support block data.
+# Change this to generate something else than stone in the biome.
 StoneBlock: STONE
 
-# Surface block, usually GRASS. Doesn't support block data.
+# Surface block, usually GRASS.
 SurfaceBlock: GRASS
 
-# Block from stone to surface, like dirt in most biomes. Doesn't support block data.
+# Block from stone to surface, like dirt in most biomes.
 GroundBlock: DIRT
 
 # Setting for biomes with more complex surface and ground blocks.
@@ -289,6 +289,7 @@ FoliageColorIsMultiplier: true
 # UnderWaterOre(BlockName,Size,Frequency,Rarity,BlockSource[,BlockSource2,BlockSource3.....])
 # CustomObject(Object[,AnotherObject[,...]])
 # CustomStructure([Object,Object_Chance[,AnotherObject,Object_Chance[,...]]])
+# SurfacePatch(BlockName,DecorationBlockName,MinAltitude,MaxAltitude,BlockSource[,BlockSource2,BlockSource3.....]
 # Tree(Frequency,TreeType,TreeTypeChance[,AdditionalTreeType,AdditionalTreeTypeChance.....])
 # Plant(PlantType,Frequency,Rarity,MinAltitude,MaxAltitude,BlockSource[,BlockSource2,BlockSource3.....])
 # Grass(PlantType,Grouped/NotGrouped,Frequency,Rarity,BlockSource[,BlockSource2,BlockSource3.....])
@@ -349,7 +350,7 @@ Tree(1,BigTree,1,Tree,9)
 Plant(RED_ROSE,2,100.0,0,128,GRASS,DIRT,SOIL)
 Plant(YELLOW_FLOWER,2,100.0,0,128,GRASS,DIRT,SOIL)
 Grass(LONG_GRASS:1,NotGrouped,10,100.0,GRASS,DIRT)
-Plant(PUMPKIN,1,3.0,0,128,GRASS)
+Plant(PUMPKIN:0,1,3.0,0,128,GRASS)
 Liquid(WATER,20,100.0,8,128,STONE)
 Liquid(LAVA,10,100.0,8,128,STONE)
 
