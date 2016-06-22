@@ -27,6 +27,12 @@ Jobs:
       SAPLING-3:
         income: 5.0
         experience: 5.0
+      SAPLING-4:
+        income: 5.0
+        experience: 5.0
+       SAPLING-5:
+        income: 5.0
+        experience: 5.0
     Break:
       LOG-0:
         income: 2.0
@@ -50,6 +56,12 @@ Jobs:
         income: -5.0
         experience: -5.0
       SAPLING-3:
+        income: -5.0
+        experience: -5.0
+      SAPLING-4:
+        income: -5.0
+        experience: -5.0
+      SAPLING-5:
         income: -5.0
         experience: -5.0
   Miner:
