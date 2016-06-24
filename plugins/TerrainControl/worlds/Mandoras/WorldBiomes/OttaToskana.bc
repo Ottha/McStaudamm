@@ -1,4 +1,3 @@
-# This is the biome config file of the OttaToskana biome, which is a custom biome.
 
 #######################################################################
 # +-----------------------------------------------------------------+ #
@@ -135,11 +134,12 @@ VolatilityWeight2: 0.45
 # Disable all noises except Volatility1 and Volatility2. Also disable default block chance from height.
 DisableBiomeHeight: false
 
-# List of custom height factor, 17 double entries, each entire control of about 7 blocks height from down. Positive entry - better chance of spawn blocks, negative - smaller
-# Values which affect your configuration may be found only experimental. That may be very big, like ~3000.0 depends from height
+# List of custom height factors, 17 double entries, each controls about 7
+# blocks height, starting at the bottom of the world. Positive entry - larger chance of spawn blocks, negative - smaller
+# Values which affect your configuration may be found only experimentally. Values may be very big, like ~3000.0 depends from height
 # Example:
 #   CustomHeightControl:0.0,-2500.0,0.0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
-# Make empty layer above bedrock layer. 
+# Makes empty layer above bedrock layer. 
 CustomHeightControl: 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0
 
 
@@ -217,11 +217,11 @@ SurfaceAndGroundControl:
 # Replace grass block to dirt from 100 to 127 height and replace gravel to glass on all height 
 ReplacedBlocks: None
 
-#################
-# Water and ice #
-#################
+################################
+# Water / Lava & Frozen States #
+################################
 
-# Set this to false to use the water and ice settings of this biome.
+# Set this to false to use the "Water / Lava & Frozen States" settings of this biome.
 UseWorldWaterLevel: true
 
 # Set water level. Every empty between this levels will be fill water or another block from WaterBlock.
@@ -235,6 +235,10 @@ WaterBlock: STATIONARY_WATER
 # Block used as ice. Ice only spawns if the BiomeTemperture is low enough.
 IceBlock: ICE
 
+# Block used as cooled or frozen lava.
+# Set this to OBSIDIAN for "frozen" lava lakes in cold biomes
+CooledLavaBlock: STATIONARY_LAVA
+
 
 #######################################################################
 # +-----------------------------------------------------------------+ #
@@ -246,10 +250,12 @@ IceBlock: ICE
 # Biome temperature. Float value from 0.0 to 2.0.
 # When this value is around 0.2, snow will fall on mountain peaks above y=90.
 # When this value is around 0.1, the whole biome will be covered in snow and ice.
+# However, on default biomes, this won't do anything except changing the grass and leaves colors slightly.
 BiomeTemperature: 1.6
 
 # Biome wetness. Float value from 0.0 to 1.0.
-# When this is set to 0, no rain will fall.
+# If this biome is a custom biome, and this value is set to 0, no rain will fall.
+# On default biomes, this won't do anything except changing the grass and leaves colors slightly.
 BiomeWetness: 0.0
 
 # Biome sky color.
@@ -313,8 +319,9 @@ FoliageColorIsMultiplier: false
 # Rarity:         chance for each attempt, Rarity:100 - mean 100% to pass, Rarity:1 - mean 1% to pass.
 # MinAltitude and MaxAltitude: height limits.
 # BlockSource:    mean where or whereupon resource will be placed 
-# TreeType:       Tree (original oak tree) - BigTree - Birch - TallBirch - SwampTree
-#                 HugeMushroom (not a tree but still counts) - Taiga1 - Taiga2 - HugeTaiga1 - HugeTaiga2
+# TreeType:       Tree (original oak tree) - BigTree - Birch - TallBirch - SwampTree -
+#                 HugeMushroom (randomly red or brown) - HugeRedMushroom - HugeBrownMushroom -
+#                 Taiga1 - Taiga2 - HugeTaiga1 - HugeTaiga2 -
 #                 JungleTree (the huge jungle tree) - GroundBush - CocoaTree (smaller jungle tree)
 #                 DarkOak (from the roofed forest biome) - Acacia
 #                 You can also use your own custom objects, as long as they have set Tree to true in their settings.
@@ -366,7 +373,7 @@ Liquid(LAVA,10,100.0,8,256,STONE)
 # +-----------------------------------------------------------------+ #
 #######################################################################
 
-# Terrain Control allows you to grow your custom objects from saplings, instead
+# TerrainControl allows you to grow your custom objects from saplings, instead
 # of the vanilla trees. Add one or more Sapling functions here to override vanilla
 # spawning for that sapling.
 
@@ -410,10 +417,15 @@ NetherFortressesEnabled: true
 # The village type in this biome. Can be wood, sandstone or disabled.
 VillageType: wood
 
+# The mineshaft type in this biome. Can be normal, mesa or disabled.
+MineshaftType: normal
+
 # The mineshaft rarity from 0 to 100. 0 = no mineshafts, 1 = default rarity, 100 = a wooden chaos.
+# Note that mineshafts will never spawn, regardless of this setting, if 
+# MineshaftType was set to disabled
 MineshaftRarity: 1.0
 
-# The type of the aboveground rare building in this biome. Can be desertPyramid, jungleTemple, swampHut or disabled.
+# The type of the aboveground rare building in this biome. Can be desertPyramid, jungleTemple, swampHut, igloo or disabled.
 RareBuildingType: disabled
 
 
