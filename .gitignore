@@ -25,3 +25,9 @@
 /wepif.yml
 /usercache.json
 /plugins/Essentials/userdata
+/plugins/GroupManager/backup/*
+/plugins/Jobs/jobs.sqlite.db
+/plugins/dynmap/Setrolas.pending
+/plugins/dynmap/markers.yml.old
+ plugins/TerrainControl/worlds/test/*
+
