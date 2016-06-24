@@ -25,5 +25,6 @@ System:
     Db: minecraft
     Prefix: cc_
     ConvertFromSQLite: false
+    Poolsize: 10
 Database:
   dbVersion: 1
