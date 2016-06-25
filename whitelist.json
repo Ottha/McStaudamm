@@ -1,1 +1,152 @@
-[]
+[][18:20:33 INFO]: [TerrainControl] [Debug] Created Vannila biome: Sky with genId; 9 and savedId: 9 and instance: 9
+  [18:20:33 INFO]: [TerrainControl] [Debug] Just Created local biome with id; [Sky, 9, 9]
+  [18:20:33 INFO]: [TerrainControl] [Debug] Created Vannila biome: Cold Taiga Hills with genId; 31 and savedId: 31 and instance: 31
+  [18:20:33 INFO]: [TerrainControl] [Debug] Just Created local biome with id; [Cold Taiga Hills, 31, 31]
+  [18:20:33 INFO]: [TerrainControl] [Debug] Created Vannila biome: Cold Taiga with genId; 30 and savedId: 30 and instance: 30
+  [18:20:33 INFO]: [TerrainControl] [Debug] Just Created local biome with id; [Cold Taiga, 30, 30]
+  [18:20:33 INFO]: [TerrainControl] [Debug] Changing savedId to; 21 for biome: OttaJunglePeakArc with genId: 88 mapped to biome: Jungle
+  [18:20:33 INFO]: [TerrainControl] [Debug] Just Created local biome with id; [OttaJunglePeakArc, 88, 88 (gen), 21 (saved)]
+  [18:20:33 INFO]: [TerrainControl] [Debug] Changing savedId to; 2 for biome: OttaToskanaDry with genId: 171 mapped to biome: Desert
+  [18:20:33 INFO]: [TerrainControl] [Debug] Just Created local biome with id; [OttaToskanaDry, 171, 171 (gen), 2 (saved)]
+  [18:20:33 INFO]: [TerrainControl] [Debug] Changing savedId to; 37 for biome: OttaMesa with genId: 124 mapped to biome: Mesa
+  [18:20:33 INFO]: [TerrainControl] [Debug] Just Created local biome with id; [OttaMesa, 124, 124 (gen), 37 (saved)]
+  [18:20:33 INFO]: [TerrainControl] [Debug] Created Vannila biome: Birch Forest with genId; 27 and savedId: 27 and instance: 27
+  [18:20:33 INFO]: [TerrainControl] [Debug] Just Created local biome with id; [Birch Forest, 27, 27]
+  [18:20:33 INFO]: [TerrainControl] [Debug] Just Created local biome with id; [OttaAtollBeach, 190, 190]
+  [18:20:33 INFO]: [TerrainControl] [Debug] Changing savedId to; 2 for biome: OttaDesertOasisBorder with genId: 40 mapped to biome: Desert
+  [18:20:33 INFO]: [TerrainControl] [Debug] Just Created local biome with id; [OttaDesertOasisBorder, 40, 40 (gen), 2 (saved)]
+  [18:20:33 INFO]: [TerrainControl] [Debug] Created Vannila biome: Extreme Hills M with genId; 131 and savedId: 131 and instance: 131
+  [18:20:33 INFO]: [TerrainControl] [Debug] Just Created local biome with id; [Extreme Hills M, 131, 131]
+  [18:20:33 INFO]: [TerrainControl] [Debug] Just Created local biome with id; [OttaValley, 43, 43]
+  [18:20:33 INFO]: [TerrainControl] [Debug] Created Vannila biome: Taiga M with genId; 133 and savedId: 133 and instance: 133
+  [18:20:33 INFO]: [TerrainControl] [Debug] Just Created local biome with id; [Taiga M, 133, 133]
+  [18:20:33 INFO]: [TerrainControl] [Debug] Just Created local biome with id; [OttaCoastMountainHighland, 97, 97]
+  [18:20:33 INFO]: [TerrainControl] [Debug] Changing savedId to; 5 for biome: OttaIceFieldsHill with genId: 243 mapped to biome: Taiga
+  [18:20:33 INFO]: [TerrainControl] [Debug] Just Created local biome with id; [OttaIceFieldsHill, 243, 243 (gen), 5 (saved)]
+  [18:20:33 INFO]: [TerrainControl] [Debug] Created Vannila biome: Extreme Hills+ M with genId; 162 and savedId: 162 and instance: 162
+  [18:20:33 INFO]: [TerrainControl] [Debug] Just Created local biome with id; [Extreme Hills+ M, 162, 162]
+  [18:20:33 INFO]: [TerrainControl] [Debug] Just Created local biome with id; [OttaFlatPlainsLakeIsle, 76, 76]
+  [18:20:33 INFO]: [TerrainControl] [Debug] Just Created local biome with id; [OttaMountainHighlandBorder, 67, 67]
+  [18:20:33 INFO]: [TerrainControl] [Debug] Created Vannila biome: Mesa Plateau with genId; 39 and savedId: 39 and instance: 39
+  [18:20:33 INFO]: [TerrainControl] [Debug] Just Created local biome with id; [Mesa Plateau, 39, 39]
+  [18:20:33 INFO]: [TerrainControl] [Debug] Changing savedId to; 2 for biome: OttaDesertOasis with genId: 120 mapped to biome: Desert
+  [18:20:33 INFO]: [TerrainControl] [Debug] Just Created local biome with id; [OttaDesertOasis, 120, 120 (gen), 2 (saved)]
+  [18:20:33 INFO]: [TerrainControl] [Debug] Created Vannila biome: Cold Beach with genId; 26 and savedId: 26 and instance: 26
+  [18:20:33 INFO]: [TerrainControl] [Debug] Just Created local biome with id; [Cold Beach, 26, 26]
+  [18:20:33 INFO]: [TerrainControl] [Debug] Just Created local biome with id; [OttaHillMedium, 48, 48]
+  [18:20:33 INFO]: [TerrainControl] [Debug] Created Vannila biome: Mega Spruce Taiga Hills with genId; 161 and savedId: 161 and instance: 161
+  [18:20:33 INFO]: [TerrainControl] [Debug] Just Created local biome with id; [Mega Spruce Taiga Hills, 161, 161]
+  [18:20:33 INFO]: [TerrainControl] [Debug] Created Vannila biome: Mega Taiga with genId; 32 and savedId: 32 and instance: 32
+  [18:20:33 INFO]: [TerrainControl] [Debug] Just Created local biome with id; [Mega Taiga, 32, 32]
+  [18:20:33 INFO]: [TerrainControl] [Debug] Just Created local biome with id; [OttaMountainCenterValleySmall, 200, 200]
+  [18:20:33 INFO]: [TerrainControl] [Debug] Created Vannila biome: Birch Forest Hills with genId; 28 and savedId: 28 and instance: 28
+  [18:20:33 INFO]: [TerrainControl] [Debug] Just Created local biome with id; [Birch Forest Hills, 28, 28]
+  [18:20:33 INFO]: [TerrainControl] [Debug] Just Created local biome with id; [OttaRiverFrozen, 93, 93]
+  [18:20:33 INFO]: [TerrainControl] [Debug] Changing savedId to; 35 for biome: OttaFlatPlainsRockField with genId: 82 mapped to biome: Savanna
+  [18:20:33 INFO]: [TerrainControl] [Debug] Just Created local biome with id; [OttaFlatPlainsRockField, 82, 82 (gen), 35 (saved)]
+  [18:20:33 INFO]: [TerrainControl] [Debug] Created Vannila biome: Roofed Forest M with genId; 157 and savedId: 157 and instance: 157
+  [18:20:33 INFO]: [TerrainControl] [Debug] Just Created local biome with id; [Roofed Forest M, 157, 157]
+  [18:20:33 INFO]: [TerrainControl] [Debug] Created Vannila biome: ForestHills with genId; 18 and savedId: 18 and instance: 18
+  [18:20:33 INFO]: [TerrainControl] [Debug] Just Created local biome with id; [ForestHills, 18, 18]
+  [18:20:33 INFO]: [TerrainControl] [Debug] Created Vannila biome: Mesa with genId; 37 and savedId: 37 and instance: 37
+  [18:20:33 INFO]: [TerrainControl] [Debug] Just Created local biome with id; [Mesa, 37, 37]
+  [18:20:33 INFO]: [TerrainControl] [Debug] Just Created local biome with id; [OttaFloatingIsland, 173, 173]
+  [18:20:33 INFO]: [TerrainControl] [Debug] Changing savedId to; 5 for biome: OttaIceFields with genId: 242 mapped to biome: Taiga
+  [18:20:33 INFO]: [TerrainControl] [Debug] Just Created local biome with id; [OttaIceFields, 242, 242 (gen), 5 (saved)]
+  [18:20:33 INFO]: [TerrainControl] [Debug] Created Vannila biome: Jungle M with genId; 149 and savedId: 149 and instance: 149
+  [18:20:33 INFO]: [TerrainControl] [Debug] Just Created local biome with id; [Jungle M, 149, 149]
+  [18:20:33 INFO]: [TerrainControl] [Debug] Just Created local biome with id; [OttaMountainCenterPeakSmall, 65, 65]
+  [18:20:33 INFO]: [TerrainControl] [Debug] Changing savedId to; 5 for biome: OttaTaigaBorder with genId: 196 mapped to biome: Taiga
+  [18:20:33 INFO]: [TerrainControl] [Debug] Just Created local biome with id; [OttaTaigaBorder, 196, 196 (gen), 5 (saved)]
+  [18:20:33 INFO]: [TerrainControl] [Debug] Created Vannila biome: Mega Spruce Taiga with genId; 160 and savedId: 160 and instance: 160
+  [18:20:33 INFO]: [TerrainControl] [Debug] Just Created local biome with id; [Mega Spruce Taiga, 160, 160]
+  [18:20:33 INFO]: [TerrainControl] [Debug] Created Vannila biome: TaigaHills with genId; 19 and savedId: 19 and instance: 19
+  [18:20:33 INFO]: [TerrainControl] [Debug] Just Created local biome with id; [TaigaHills, 19, 19]
+  [18:20:33 INFO]: [TerrainControl] [Debug] Changing savedId to; 21 for biome: OttaJungleHills with genId: 117 mapped to biome: Jungle
+  [18:20:33 INFO]: [TerrainControl] [Debug] Just Created local biome with id; [OttaJungleHills, 117, 117 (gen), 21 (saved)]
+  [18:20:33 INFO]: [TerrainControl] [Debug] Just Created local biome with id; [OttaFloatingIslandCenter, 175, 175]
+  [18:20:33 INFO]: [TerrainControl] [Debug] Changing savedId to; 6 for biome: OttaSwamplandLargeCave with genId: 83 mapped to biome: Swampland
+  [18:20:33 INFO]: [TerrainControl] [Debug] Just Created local biome with id; [OttaSwamplandLargeCave, 83, 83 (gen), 6 (saved)]
+  [18:20:33 INFO]: [TerrainControl] [Debug] Created Vannila biome: Birch Forest M with genId; 155 and savedId: 155 and instance: 155
+  [18:20:33 INFO]: [TerrainControl] [Debug] Just Created local biome with id; [Birch Forest M, 155, 155]
+  [18:20:33 INFO]: [TerrainControl] [Debug] Created Vannila biome: Jungle with genId; 21 and savedId: 21 and instance: 89 (gen), 21 (saved)
+  [18:20:33 INFO]: [TerrainControl] [Debug] Just Created local biome with id; [Jungle, 89, 89 (gen), 21 (saved)]
+  [18:20:33 INFO]: [TerrainControl] [Debug] Just Created local biome with id; [OttaValleyRockBorder, 45, 45]
+  [18:20:33 INFO]: [TerrainControl] [Debug] Changing savedId to; 5 for biome: OttaIceFieldsGlacier with genId: 246 mapped to biome: Taiga
+  [18:20:33 INFO]: [TerrainControl] [Debug] Just Created local biome with id; [OttaIceFieldsGlacier, 246, 246 (gen), 5 (saved)]
+  [18:20:33 INFO]: [TerrainControl] [Debug] Created Vannila biome: JungleHills with genId; 22 and savedId: 22 and instance: 22
+  [18:20:33 INFO]: [TerrainControl] [Debug] Just Created local biome with id; [JungleHills, 22, 22]
+  [18:20:33 INFO]: [TerrainControl] [Debug] Just Created local biome with id; [OttaFlatPlainsOakForestDeep, 81, 81]
+  [18:20:33 INFO]: [TerrainControl] [Debug] Just Created local biome with id; [OttaRiverJungle, 95, 95]
+  [18:20:33 INFO]: [TerrainControl] [Debug] Changing savedId to; 35 for biome: OttaFlatPlainsChapparalPeak with genId: 78 mapped to biome: Savanna
+  [18:20:33 INFO]: [TerrainControl] [Debug] Just Created local biome with id; [OttaFlatPlainsChapparalPeak, 78, 78 (gen), 35 (saved)]
+  [18:20:33 INFO]: [TerrainControl] [Debug] Just Created local biome with id; [OttaMountainCenterGravel, 66, 66]
+  [18:20:33 INFO]: [TerrainControl] [Debug] Created Vannila biome: MushroomIslandShore with genId; 15 and savedId: 15 and instance: 15
+  [18:20:33 INFO]: [TerrainControl] [Debug] Just Created local biome with id; [MushroomIslandShore, 15, 15]
+  [18:20:33 INFO]: [TerrainControl] [Debug] Just Created local biome with id; [OttaMountainHighlandGiantPeak, 58, 58]
+  [18:20:33 INFO]: [TerrainControl] [Debug] Just Created local biome with id; [OttaFloatingIslandCenterBottom, 177, 177]
+  [18:20:33 INFO]: [TerrainControl] [Debug] Just Created local biome with id; [OttaMountainHighlandValeForest, 71, 71]
+  [18:20:33 INFO]: [TerrainControl] [Debug] Just Created local biome with id; [OttaRiver, 107, 107]
+  [18:20:33 INFO]: [TerrainControl] [Debug] Created Vannila biome: Mesa Plateau F M with genId; 166 and savedId: 166 and instance: 166
+  [18:20:33 INFO]: [TerrainControl] [Debug] Just Created local biome with id; [Mesa Plateau F M, 166, 166]
+  [18:20:33 INFO]: [TerrainControl] [Debug] Changing savedId to; 5 for biome: OttaIceFieldsSpikes with genId: 247 mapped to biome: Taiga
+  [18:20:33 INFO]: [TerrainControl] [Debug] Just Created local biome with id; [OttaIceFieldsSpikes, 247, 247 (gen), 5 (saved)]
+  [18:20:33 INFO]: [TerrainControl] [Debug] Created Vannila biome: FrozenRiver with genId; 11 and savedId: 11 and instance: 11
+  [18:20:33 INFO]: [TerrainControl] [Debug] Just Created local biome with id; [FrozenRiver, 11, 11]
+  [18:20:33 INFO]: [TerrainControl] [Debug] Just Created local biome with id; [OttaFloatingIslandBorder, 174, 174]
+  [18:20:33 INFO]: [TerrainControl] [Debug] Changing savedId to; 21 for biome: OttaJungle with genId: 115 mapped to biome: Jungle
+  [18:20:33 INFO]: [TerrainControl] [Debug] Just Created local biome with id; [OttaJungle, 115, 115 (gen), 21 (saved)]
+  [18:20:33 INFO]: [TerrainControl] [Debug] Changing savedId to; 2 for biome: OttaRiverDesert with genId: 92 mapped to biome: Desert
+  [18:20:33 INFO]: [TerrainControl] [Debug] Just Created local biome with id; [OttaRiverDesert, 92, 92 (gen), 2 (saved)]
+  [18:20:33 INFO]: [TerrainControl] [Debug] Created Vannila biome: FrozenOcean with genId; 10 and savedId: 10 and instance: 10
+  [18:20:33 INFO]: [TerrainControl] [Debug] Just Created local biome with id; [FrozenOcean, 10, 10]
+  [18:20:33 INFO]: [TerrainControl] [Debug] Created Vannila biome: Mega Taiga Hills with genId; 33 and savedId: 33 and instance: 33
+  [18:20:33 INFO]: [TerrainControl] [Debug] Just Created local biome with id; [Mega Taiga Hills, 33, 33]
+  [18:20:33 INFO]: [TerrainControl] [Debug] Just Created local biome with id; [OttaFlatPlainsOakForest, 80, 80]
+  [18:20:33 INFO]: [TerrainControl] [Debug] Created Vannila biome: Extreme Hills+ with genId; 34 and savedId: 34 and instance: 34
+  [18:20:33 INFO]: [TerrainControl] [Debug] Just Created local biome with id; [Extreme Hills+, 34, 34]
+  [18:20:33 INFO]: [TerrainControl] [Debug] Changing savedId to; 2 for biome: OttaDesert with genId: 118 mapped to biome: Desert
+  [18:20:33 INFO]: [TerrainControl] [Debug] Just Created local biome with id; [OttaDesert, 118, 118 (gen), 2 (saved)]
+  [18:20:33 INFO]: [TerrainControl] [Debug] Just Created local biome with id; [OttaMountainCenterPeak, 64, 64]
+  [18:20:33 INFO]: [TerrainControl] [Debug] Created Vannila biome: Ocean with genId; 0 and savedId: 0 and instance: 0
+  [18:20:33 INFO]: [TerrainControl] [Debug] Just Created local biome with id; [Ocean, 0, 0]
+  [18:20:33 INFO]: [TerrainControl] [Debug] Created Vannila biome: River with genId; 7 and savedId: 7 and instance: 7
+  [18:20:33 INFO]: [TerrainControl] [Debug] Just Created local biome with id; [River, 7, 7]
+  [18:20:33 INFO]: [TerrainControl] [Debug] Just Created local biome with id; [OttaForest, 114, 114]
+  [18:20:33 INFO]: [TerrainControl] [Debug] Changing savedId to; 2 for biome: OttaToskanaClay with genId: 172 mapped to biome: Desert
+  [18:20:33 INFO]: [TerrainControl] [Debug] Just Created local biome with id; [OttaToskanaClay, 172, 172 (gen), 2 (saved)]
+  [18:20:33 INFO]: [TerrainControl] [Debug] Changing savedId to; 2 for biome: OttaDesertDunes with genId: 119 mapped to biome: Desert
+  [18:20:33 INFO]: [TerrainControl] [Debug] Just Created local biome with id; [OttaDesertDunes, 119, 119 (gen), 2 (saved)]
+  [18:20:33 INFO]: [TerrainControl] [Debug] Just Created local biome with id; [OttaCoastMountain, 100, 100]
+  [18:20:33 INFO]: [TerrainControl] [Debug] Changing savedId to; 35 for biome: OttaFlatPlainsChapparalPond with genId: 79 mapped to biome: Savanna
+  [18:20:33 INFO]: [TerrainControl] [Debug] Just Created local biome with id; [OttaFlatPlainsChapparalPond, 79, 79 (gen), 35 (saved)]
+  [18:20:33 INFO]: [TerrainControl] [Debug] Changing savedId to; 5 for biome: OttaIceFieldsBorder with genId: 195 mapped to biome: Taiga
+  [18:20:33 INFO]: [TerrainControl] [Debug] Just Created local biome with id; [OttaIceFieldsBorder, 195, 195 (gen), 5 (saved)]
+  [18:20:33 INFO]: [TerrainControl] [Debug] Just Created local biome with id; [OttaMountainHighlandSummitFrozenPeak, 59, 59]
+  [18:20:33 INFO]: [TerrainControl] [Debug] Just Created local biome with id; [OttaCoastMountainHighlandGiant, 99, 99]
+  [18:20:33 INFO]: [TerrainControl] [Debug] Changing savedId to; 6 for biome: OttaSwampland with genId: 41 mapped to biome: Swampland
+  [18:20:33 INFO]: [TerrainControl] [Debug] Just Created local biome with id; [OttaSwampland, 41, 41 (gen), 6 (saved)]
+  [18:20:33 INFO]: [TerrainControl] [Debug] Created Vannila biome: Savanna Plateau with genId; 36 and savedId: 36 and instance: 36
+  [18:20:33 INFO]: [TerrainControl] [Debug] Just Created local biome with id; [Savanna Plateau, 36, 36]
+  [18:20:33 INFO]: [TerrainControl] [Debug] Just Created local biome with id; [OttaCoastBeach, 102, 102]
+  [18:20:33 INFO]: [TerrainControl] [Debug] Just Created local biome with id; [OttaCoastMountainHighlandGlacier, 98, 98]
+  [18:20:33 INFO]: [TerrainControl] [Debug] Just Created local biome with id; [OttaMountainHighlandPeak, 60, 60]
+  [18:20:33 INFO]: [TerrainControl] [Debug] Created Vannila biome: Flower Forest with genId; 132 and savedId: 132 and instance: 132
+  [18:20:33 INFO]: [TerrainControl] [Debug] Just Created local biome with id; [Flower Forest, 132, 132]
+  [18:20:33 INFO]: [TerrainControl] [Debug] Just Created local biome with id; [OttaHillyPlains, 106, 106]
+  [18:20:33 INFO]: [TerrainControl] [Debug] Created Vannila biome: Cold Taiga M with genId; 158 and savedId: 158 and instance: 158
+  [18:20:33 INFO]: [TerrainControl] [Debug] Just Created local biome with id; [Cold Taiga M, 158, 158]
+  [18:20:33 INFO]: [TerrainControl] [Debug] Just Created local biome with id; [OttaFlatPlainsLakeBirchBorder, 74, 74]
+  [18:20:33 INFO]: [TerrainControl] [Debug] Just Created local biome with id; [OttaRiverMountainEdge, 202, 202]
+  [18:20:33 INFO]: [TerrainControl] [Debug] Created Vannila biome: Ice Plains Spikes with genId; 140 and savedId: 140 and instance: 140
+  [18:20:33 INFO]: [TerrainControl] [Debug] Just Created local biome with id; [Ice Plains Spikes, 140, 140]
+  [18:20:33 FATAL]: [TerrainControl] Duplicate biome id 89 (Jungle and OttaJunglePeakArcPillar)!
+  [18:20:33 FATAL]: [TerrainControl] Biomes instances are equal: true!
+  [18:20:33 FATAL]: [TerrainControl] The biome OttaJunglePeakArcPillar has been prevented from loading.
+
+
+
+  [18:20:33 INFO]: [TerrainControl] [Debug] Created Vannila biome: Birch Forest M with genId; 155 and savedId: 155 and instance: 155
+  [18:20:33 INFO]: [TerrainControl] [Debug] Just Created local biome with id; [Birch Forest M, 155, 155]
+  [18:20:33 INFO]: [TerrainControl] [Debug] Created Vannila biome: Jungle with genId; 21 and savedId: 21 and instance: 89 (gen), 21 (saved)
+  [18:20:33 INFO]: [TerrainControl] [Debug] Just Created local biome with id; [Jungle, 89, 89 (gen), 21 (saved)]

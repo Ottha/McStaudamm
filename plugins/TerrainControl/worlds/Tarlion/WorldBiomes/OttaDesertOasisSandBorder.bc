@@ -47,7 +47,7 @@ BiomeColor: #F9F995
 # Replace this biome to specified after the terrain is generated.
 # This will make the world files contain the id of the specified biome, instead of the id of this biome.
 # This will cause saplings, colors and mob spawning work as in specified biome.
-ReplaceToBiomeName: Desert
+ReplaceToBiomeName: 
 
 ####################
 # Isle biomes only #

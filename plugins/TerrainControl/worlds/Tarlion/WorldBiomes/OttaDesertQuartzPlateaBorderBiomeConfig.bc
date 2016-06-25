@@ -25,7 +25,7 @@ BiomeRarity: 99
 BiomeColor: 0x66ffff
 
 # Replace this biome to specified after all generations. Warning this will cause saplings and mob spawning work as in specified biome
-ReplaceToBiomeName: Desert
+ReplaceToBiomeName:
 
 ####################
 # Isle biomes only #

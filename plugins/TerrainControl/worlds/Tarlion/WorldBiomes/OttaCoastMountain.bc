@@ -30,7 +30,7 @@ ResourceInheritance: true
 # Isle biomes:   BiomeSizeWhenIsle (see below)
 # Border biomes: BiomeSizeWhenBorder (see below)
 # River biomes:  RiverSize (see WorldConfig)
-BiomeSize: 9
+BiomeSize: 4
 
 # Biome rarity from 100 to 1. If this is normal or ice biome - chance for spawn this biome then others.
 # Example for normal biome :
@@ -42,7 +42,7 @@ BiomeRarity: 100
 
 # The hexadecimal color value of this biome. Used in the output of the /tc map command,
 # and used in the input of BiomeMode: FromImage.
-BiomeColor: #7171A3
+BiomeColor: #000000
 
 # Replace this biome to specified after the terrain is generated.
 # This will make the world files contain the id of the specified biome, instead of the id of this biome.
@@ -64,7 +64,7 @@ IsleInBiome:
 # Valid values range from 0 to GenerationDepth.
 # Larger numbers give *smaller* islands. The biome must be smaller than the biome it's going
 # to spawn in, so the BiomeSizeWhenIsle number must be larger than the BiomeSize of the other biome.
-BiomeSizeWhenIsle: 9
+BiomeSizeWhenIsle: 5
 
 # Rarity of this biome when spawned as an ilse biome.
 BiomeRarityWhenIsle: 100
@@ -79,17 +79,17 @@ BiomeRarityWhenIsle: 100
 # List of biomes this biome can be a border of.
 # For example, the Beach biome is a border on the Ocean biome, so
 # it can spawn anywhere on the border of an ocean.
-BiomeIsBorder: Ocean
+BiomeIsBorder: 
 
 # List of biomes that cancel spawning of this biome.
 # For example, the Beach biome will never spawn next to an Extreme Hills biome.
-NotBorderNear: OttaMountainEdgeBorder, OttaMountainEdgeBorderCanyon, OttaMountainEdge, OttaMountainEdgeValley, OttaFlatPlains, OttaFlatPlainsBeach, OttaHillyPlains, OttaRiver, OttaHillChain, OttaHill, OttaBigHills, OttaExtremeHill, OttaGlacierMountain, OttaForestBorder, OttaForest, OttaJungle, OttaJungleBorder, OttaJungleHills, OttaDesert, OttaDesertDunes, OttaDesertOasis, OttaDesertOasisBorder, OttaSwampland, OttaTaiga, OttaValley, OttaValleyRock, OttaValleyRockBorder, OttaHillPeak, OttaHillPeakGlacier, OttaHillMedium, OttaHillMediumPeak, OttaHillyForest, OttaFlatPlainsLake, OttaFlatPlainsLakeBirchBorder, OttaFlatPlainsLakeBorder, OttaFlatPlainsLakeIsle, OttaFlatPlainsChapparal, OttaFlatPlainsChapparalPeak, OttaFlatPlainsChapparalPond, OttaFlatPlainsOakForest, OttaFlatPlainsOakForestDeep, OttaFlatPlainsRockField, OttaSwamplandLargeCave, OttaSwamplandLargeCavePillar, OttaSwamplandLargeCaveBorder, OttaSwamplandLargeCaveEntrance, OttaJunglePeak, OttaJunglePeakArc, OttaJunglePeakArcPillar, OttaDesertOasisPalmForest, OttaDesertOasisSandBorder, OttaRiverDesert, OttaRiverFrozen, OttaRiverValley, OttaRiverJungle, OttaDesertQuartzPlateau, OttaDesertQuartzPlateauBorder, OttaDesertLargeDunes, OttaMesa, OttaMesaPlateau, OttaSavanna, OttaSavannaPlateauM, OttaRoofedForestM, OttaFlowerForest, OttaToskana, OttaToskanaHills, OttaFloatingIsland, OttaWildlands, OttaWildlandsPeak, OttaWildlandsArcField, OttaWildlandsArc, OttaIceFields, OttaIceFieldsHill, OttaIceFieldsPit, OttaIceFieldsPitBorder, OttaIceFieldsGlacier, OttaIceFieldsSpikes, OttaAtoll, OttaAtollFlatIsland, OttaTaigaBorder, FrozenOceanBorder, OttaIceFieldsBorder, Deep Ocean
+NotBorderNear: 
 
 # Size of this biome when spawned as a border biome.
 # Valid values range from 0 to GenerationDepth.
 # Larger numbers give *smaller* borders. The biome must be smaller than the biome it's going
 # to spawn in, so the BiomeSizeWhenBorder number must be larger than the BiomeSize of the other biome.
-BiomeSizeWhenBorder: 9
+BiomeSizeWhenBorder: 5
 
 
 #######################################################################
@@ -101,10 +101,10 @@ BiomeSizeWhenBorder: 9
 # BiomeHeight mean how much height will be added in terrain generation
 # It is double value from -10.0 to 10.0
 # Value 0.0 equivalent half of map height with all other default settings
-BiomeHeight: -0.6
+BiomeHeight: 0.1
 
 # Biome volatility.
-BiomeVolatility: 0.15
+BiomeVolatility: 0.3
 
 # Smooth radius between biomes. Must be between 0 and 32, inclusive. The resulting
 # smooth radius seems to be  (thisSmoothRadius + 1 + smoothRadiusOfBiomeOnOtherSide) * 4 .
@@ -122,14 +122,14 @@ MaxAverageDepth: 0.0
 
 # Another type of noise. This noise is independent from biomes. The larger the values the more chaotic/volatile landscape generation becomes.
 # Setting the values to negative will have the opposite effect and make landscape generation calmer/gentler.
-Volatility1: -0.4
+Volatility1: 0.0
 
-Volatility2: 1.0
+Volatility2: 0.0
 
 # Adjust the weight of the corresponding volatility settings. This allows you to change how prevalent you want either of the volatility settings to be in the terrain.
-VolatilityWeight1: 1.5
+VolatilityWeight1: 0.5
 
-VolatilityWeight2: 1.0
+VolatilityWeight2: 0.45
 
 # Disable all noises except Volatility1 and Volatility2. Also disable default block chance from height.
 DisableBiomeHeight: false
@@ -159,7 +159,7 @@ CustomHeightControl: 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0,
 
 # Only available when ImprovedRivers is set to false in the WorldConfig.
 # Sets which biome is used as the river biome.
-RiverBiome: 
+RiverBiome: River
 
 #######################
 # ImprovedRivers:true #
@@ -175,7 +175,7 @@ RiverVolatility: 0.3
 
 # Works the same as WaterLevelMax (scroll down), but is used where a river is generated in this biome
 # Can be used to create elevated rivers
-RiverWaterLevel: 55
+RiverWaterLevel: 63
 
 # Works the same as CustomHeightControl (scroll up), but is used where a river is generated in this biome
 RiverCustomHeightControl: 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0
@@ -191,10 +191,10 @@ RiverCustomHeightControl: 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0,
 StoneBlock: STONE
 
 # Surface block, usually GRASS.
-SurfaceBlock: STONE
+SurfaceBlock: GRASS
 
 # Block from stone to surface, like dirt in most biomes.
-GroundBlock: STONE
+GroundBlock: DIRT
 
 # Setting for biomes with more complex surface and ground blocks.
 # Each column in the world has a noise value from what appears to be -7 to 7.
@@ -225,7 +225,7 @@ ReplacedBlocks: None
 UseWorldWaterLevel: true
 
 # Set water level. Every empty between this levels will be fill water or another block from WaterBlock.
-WaterLevelMax: 53
+WaterLevelMax: 55
 
 WaterLevelMin: 0
 
@@ -251,12 +251,12 @@ CooledLavaBlock: STATIONARY_LAVA
 # When this value is around 0.2, snow will fall on mountain peaks above y=90.
 # When this value is around 0.1, the whole biome will be covered in snow and ice.
 # However, on default biomes, this won't do anything except changing the grass and leaves colors slightly.
-BiomeTemperature: 0.3
+BiomeTemperature: 0.5
 
 # Biome wetness. Float value from 0.0 to 1.0.
 # If this biome is a custom biome, and this value is set to 0, no rain will fall.
 # On default biomes, this won't do anything except changing the grass and leaves colors slightly.
-BiomeWetness: 0.4
+BiomeWetness: 0.5
 
 # Biome sky color.
 SkyColor: #7BA5FF
@@ -342,17 +342,6 @@ FoliageColorIsMultiplier: true
 # Vein resource: not in vanilla. Starts an area where ores will spawn. Can be slow, so use a low Rarity (smaller than 1).
 # CustomStructure resource: starts a BO3 structure in the chunk.
 
-UnderGroundLake(25,60,2,5.0,0,30)
-Ore(DIRT,32,5,100.0,0,200,STONE)
-Ore(GRAVEL,32,5,100.0,0,200,STONE)
-Ore(COAL_ORE,16,1,100.0,0,70,STONE)
-Ore(IRON_ORE,4,5,100.0,0,60,STONE)
-Ore(DIAMOND_ORE,8,1,100.0,0,50,STONE)
-Ore(GOLD_ORE,8,2,100.0,0,140,STONE)
-Dungeon(8,100.0,0,128)
-Tree(2,bergbaum1,10,bergbaum2,10,bergbaum3,10,bergbaum4,10,bergbaum5,10,bergbaum6,10)
-Liquid(WATER,4,100.0,8,128,STONE)
-CustomObject(UseWorld)
 
 #######################################################################
 # +-----------------------------------------------------------------+ #
@@ -393,10 +382,10 @@ BiomeObjects:
 # regardless of these settings.
 # Disables strongholds for this biome. If there is no suitable biome nearby,
 # Minecraft will ignore this setting.
-StrongholdsEnabled: false
+StrongholdsEnabled: true
 
 # Whether an Ocean Monument can be placed in this biome.
-OceanMonumentsEnabled: false
+OceanMonumentsEnabled: true
 
 # Whether a Nether Fortress can start in this biome. Might extend to neighbor biomes.
 NetherFortressesEnabled: false
@@ -410,7 +399,7 @@ MineshaftType: normal
 # The mineshaft rarity from 0 to 100. 0 = no mineshafts, 1 = default rarity, 100 = a wooden chaos.
 # Note that mineshafts will never spawn, regardless of this setting, if 
 # MineshaftType was set to disabled
-MineshaftRarity: 0.0
+MineshaftRarity: 1.0
 
 # The type of the aboveground rare building in this biome. Can be desertPyramid, jungleTemple, swampHut, igloo or disabled.
 RareBuildingType: disabled
@@ -446,13 +435,13 @@ RareBuildingType: disabled
 # your changes are ignored.
 
 # The monsters (skeletons, zombies, etc.) that spawn in this biome
-SpawnMonsters: [{"mob": "Zombie", "weight": 100, "min": 1, "max": 4}, {"mob": "Skeleton", "weight": 100, "min": 1, "max": 4}, {"mob": "Creeper", "weight": 100, "min": 1, "max": 4}]
+SpawnMonsters: [{"mob": "Spider", "weight": 100, "min": 4, "max": 4}, {"mob": "Zombie", "weight": 100, "min": 4, "max": 4}, {"mob": "Skeleton", "weight": 100, "min": 4, "max": 4}, {"mob": "Creeper", "weight": 100, "min": 4, "max": 4}, {"mob": "Slime", "weight": 100, "min": 4, "max": 4}, {"mob": "Enderman", "weight": 10, "min": 1, "max": 4}, {"mob": "Witch", "weight": 5, "min": 1, "max": 1}]
 
 # The friendly creatures (cows, pigs, etc.) that spawn in this biome
-SpawnCreatures: []
+SpawnCreatures: [{"mob": "Sheep", "weight": 12, "min": 4, "max": 4}, {"mob": "Pig", "weight": 10, "min": 4, "max": 4}, {"mob": "Chicken", "weight": 10, "min": 4, "max": 4}, {"mob": "Cow", "weight": 8, "min": 4, "max": 4}]
 
 # The water creatures (only squids in vanilla) that spawn in this biome
-SpawnWaterCreatures: [{"mob": "Squid", "weight": 10, "min": 1, "max": 4}]
+SpawnWaterCreatures: [{"mob": "Squid", "weight": 10, "min": 4, "max": 4}]
 
 # The ambient creatures (only bats in vanila) that spawn in this biome
 SpawnAmbientCreatures: [{"mob": "Bat", "weight": 10, "min": 8, "max": 8}]
