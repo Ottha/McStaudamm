@@ -104,7 +104,7 @@ BiomeSizeWhenBorder: 2
 BiomeHeight: -2.7
 
 # Biome volatility.
-BiomeVolatility: 0.0
+BiomeVolatility: 0.03
 
 # Smooth radius between biomes. Must be between 0 and 32, inclusive. The resulting
 # smooth radius seems to be  (thisSmoothRadius + 1 + smoothRadiusOfBiomeOnOtherSide) * 4 .
@@ -159,7 +159,7 @@ CustomHeightControl: 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0,
 
 # Only available when ImprovedRivers is set to false in the WorldConfig.
 # Sets which biome is used as the river biome.
-RiverBiome: 
+RiverBiome: OttaRiverFrozen
 
 #######################
 # ImprovedRivers:true #
@@ -442,7 +442,7 @@ RareBuildingType: disabled
 # your changes are ignored.
 
 # The monsters (skeletons, zombies, etc.) that spawn in this biome
-SpawnMonsters: [{"mob": "Spider", "weight": 100, "min": 4, "max": 4}, {"mob": "Zombie", "weight": 100, "min": 4, "max": 4}, {"mob": "Skeleton", "weight": 100, "min": 4, "max": 4}, {"mob": "Creeper", "weight": 100, "min": 4, "max": 4}, {"mob": "Slime", "weight": 100, "min": 4, "max": 4}, {"mob": "Enderman", "weight": 10, "min": 1, "max": 4}, {"mob": "Witch", "weight": 5, "min": 1, "max": 1}]
+SpawnMonsters: [{"mob": "Zombie", "weight": 100, "min": 4, "max": 4}, {"mob": "Skeleton", "weight": 100, "min": 4, "max": 4}, {"mob": "Creeper", "weight": 100, "min": 4, "max": 4}]
 
 # The friendly creatures (cows, pigs, etc.) that spawn in this biome
 SpawnCreatures: []

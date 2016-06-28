@@ -104,13 +104,13 @@ BiomeSizeWhenBorder: 2
 BiomeHeight: -1.8
 
 # Biome volatility.
-BiomeVolatility: 0.0
+BiomeVolatility: 0.03
 
 # Smooth radius between biomes. Must be between 0 and 32, inclusive. The resulting
 # smooth radius seems to be  (thisSmoothRadius + 1 + smoothRadiusOfBiomeOnOtherSide) * 4 .
 # So if two biomes next to each other have both a smooth radius of 2, the
 # resulting smooth area will be (2 + 1 + 2) * 4 = 20 blocks wide.
-SmoothRadius: 2
+SmoothRadius: 15
 
 # If this value is greater than 0, then it will affect how much, on average, the terrain will rise before leveling off when it begins to increase in elevation.
 # If the value is less than 0, then it will cause the terrain to either increase to a lower height before leveling out or decrease in height if the value is a large enough negative.
@@ -159,7 +159,7 @@ CustomHeightControl: 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0,
 
 # Only available when ImprovedRivers is set to false in the WorldConfig.
 # Sets which biome is used as the river biome.
-RiverBiome: 
+RiverBiome: OttaRiverMountainEdge
 
 #######################
 # ImprovedRivers:true #
@@ -191,7 +191,7 @@ RiverCustomHeightControl: 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0,
 StoneBlock: STONE
 
 # Surface block, usually GRASS.
-SurfaceBlock: GRAVEL
+SurfaceBlock: GRASS
 
 # Block from stone to surface, like dirt in most biomes.
 GroundBlock: GRAVEL
@@ -342,14 +342,18 @@ FoliageColorIsMultiplier: true
 # Vein resource: not in vanilla. Starts an area where ores will spawn. Can be slow, so use a low Rarity (smaller than 1).
 # CustomStructure resource: starts a BO3 structure in the chunk.
 
+SmallLake(WATER,4,7.0,8,120)
+SmallLake(GRAVEL,4,7.0,8,120)
 UnderGroundLake(25,60,2,5.0,0,50)
 Dungeon(8,100.0,0,128)
 Ore(GOLD_ORE,8,2,100.0,0,32,STONE)
+Ore(COAL_ORE,32,2,100.0,0,60,STONE)
+Ore(IRON_ORE,16,5,100.0,0,80,STONE)
 UnderWaterOre(SAND,7,1,100.0,DIRT,GRASS)
 UnderWaterOre(CLAY,4,1,100.0,DIRT,CLAY)
 CustomObject(UseWorld)
-Liquid(WATER,20,100.0,8,128,STONE)
-Liquid(LAVA,10,100.0,8,128,STONE)
+Tree(1,EuropeanBlackPine,5)
+Grass(LONG_GRASS:1,NotGrouped,50,30.0,GRASS,DIRT)
 
 #######################################################################
 # +-----------------------------------------------------------------+ #
@@ -443,7 +447,7 @@ RareBuildingType: disabled
 # your changes are ignored.
 
 # The monsters (skeletons, zombies, etc.) that spawn in this biome
-SpawnMonsters: [{"mob": "Spider", "weight": 100, "min": 4, "max": 4}, {"mob": "Zombie", "weight": 100, "min": 4, "max": 4}, {"mob": "Skeleton", "weight": 100, "min": 4, "max": 4}, {"mob": "Creeper", "weight": 100, "min": 4, "max": 4}, {"mob": "Slime", "weight": 100, "min": 4, "max": 4}, {"mob": "Enderman", "weight": 10, "min": 1, "max": 4}, {"mob": "Witch", "weight": 5, "min": 1, "max": 1}]
+SpawnMonsters: [{"mob": "Zombie", "weight": 100, "min": 4, "max": 4}, {"mob": "Skeleton", "weight": 100, "min": 4, "max": 4}, {"mob": "Creeper", "weight": 100, "min": 4, "max": 4}, {"mob": "Slime", "weight": 100, "min": 4, "max": 4}, {"mob": "Witch", "weight": 5, "min": 1, "max": 1}]
 
 # The friendly creatures (cows, pigs, etc.) that spawn in this biome
 SpawnCreatures: []

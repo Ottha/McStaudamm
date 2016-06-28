@@ -104,7 +104,7 @@ BiomeSizeWhenBorder: 2
 BiomeHeight: -2.7
 
 # Biome volatility.
-BiomeVolatility: 0.0
+BiomeVolatility: 0.03
 
 # Smooth radius between biomes. Must be between 0 and 32, inclusive. The resulting
 # smooth radius seems to be  (thisSmoothRadius + 1 + smoothRadiusOfBiomeOnOtherSide) * 4 .
@@ -159,7 +159,7 @@ CustomHeightControl: 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0,
 
 # Only available when ImprovedRivers is set to false in the WorldConfig.
 # Sets which biome is used as the river biome.
-RiverBiome: 
+RiverBiome: OttaRiverValley
 
 #######################
 # ImprovedRivers:true #
@@ -346,6 +346,11 @@ UnderGroundLake(25,60,2,5.0,0,50)
 Dungeon(8,100.0,0,128)
 Ore(GOLD_ORE,8,2,100.0,0,32,STONE)
 CustomObject(UseWorld)
+Ore(DIRT,32,20,100.0,0,128,STONE)
+Ore(GRAVEL,32,10,100.0,0,128,STONE)
+Ore(CLAY,32,1,100.0,0,45,STONE)
+Ore(STONE:1,16,2,100.0,0,80,STONE)
+Ore(STONE:1,8,3,100.0,0,90,STONE)
 Liquid(WATER,20,100.0,8,128,STONE)
 Liquid(LAVA,10,100.0,8,128,STONE)
 
@@ -441,13 +446,13 @@ RareBuildingType: disabled
 # your changes are ignored.
 
 # The monsters (skeletons, zombies, etc.) that spawn in this biome
-SpawnMonsters: [{"mob": "Spider", "weight": 100, "min": 4, "max": 4}, {"mob": "Zombie", "weight": 100, "min": 4, "max": 4}, {"mob": "Skeleton", "weight": 100, "min": 4, "max": 4}, {"mob": "Creeper", "weight": 100, "min": 4, "max": 4}, {"mob": "Slime", "weight": 100, "min": 4, "max": 4}, {"mob": "Enderman", "weight": 10, "min": 1, "max": 4}, {"mob": "Witch", "weight": 5, "min": 1, "max": 1}]
+SpawnMonsters: [{"mob": "Zombie", "weight": 100, "min": 4, "max": 4}, {"mob": "Skeleton", "weight": 100, "min": 4, "max": 4}, {"mob": "Creeper", "weight": 100, "min": 4, "max": 4}]
 
 # The friendly creatures (cows, pigs, etc.) that spawn in this biome
-SpawnCreatures: []
+SpawnCreatures: [{"mob": "EntityHorse", "weight": 5, "min": 2, "max": 6}, {"mob": "Rabbit", "weight": 10, "min": 3, "max": 3}]
 
 # The water creatures (only squids in vanilla) that spawn in this biome
-SpawnWaterCreatures: [{"mob": "Squid", "weight": 10, "min": 4, "max": 4}]
+SpawnWaterCreatures: []
 
 # The ambient creatures (only bats in vanila) that spawn in this biome
 SpawnAmbientCreatures: [{"mob": "Bat", "weight": 10, "min": 8, "max": 8}]
