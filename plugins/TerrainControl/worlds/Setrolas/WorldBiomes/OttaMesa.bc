@@ -418,7 +418,7 @@ NetherFortressesEnabled: true
 VillageType: disabled
 
 # The mineshaft type in this biome. Can be normal, mesa or disabled.
-MineshaftType: normal
+MineshaftType: mesa
 
 # The mineshaft rarity from 0 to 100. 0 = no mineshafts, 1 = default rarity, 100 = a wooden chaos.
 # Note that mineshafts will never spawn, regardless of this setting, if 
