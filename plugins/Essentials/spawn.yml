@@ -1,0 +1,29 @@
+spawns: 
+  default: 
+    world: Setrolas
+    x: 933.1193997886637
+    y: 98.0
+    z: -16472.9857524397
+    yaw: 79.65001
+    pitch: 23.7
+  moderator: 
+    world: Setrolas
+    x: 933.1193997886637
+    y: 98.0
+    z: -16472.9857524397
+    yaw: 79.65001
+    pitch: 23.7
+  admin: 
+    world: Setrolas
+    x: 933.1193997886637
+    y: 98.0
+    z: -16472.9857524397
+    yaw: 79.65001
+    pitch: 23.7
+  builder: 
+    world: Setrolas
+    x: 933.1193997886637
+    y: 98.0
+    z: -16472.9857524397
+    yaw: 79.65001
+    pitch: 23.7
