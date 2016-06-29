@@ -22,9 +22,26 @@ groups:
       prefix: '&e'
       build: false
       suffix: ''
+  Owner:
+    default: false
+    permissions:
+    - +vanish.effects.toggle.all
+    - -vanish.effects.*
+    - '*'
+    inheritance:
+    - admin
+    info:
+      prefix: '&4'
+      build: true
+      suffix: ''
   Builder:
     default: false
-    permissions: [backpack.use, backpack.fullpickup, backpack.size.*]
+    permissions:
+    - backpack.fullpickup
+    - backpack.size.*
+    - backpack.use
+    - essentials.build
+    - essentials.destroy
     inheritance:
     - default
     - g:essentials_builder
@@ -59,17 +76,5 @@ groups:
     - g:vanish_admin
     info:
       prefix: '&c'
-      build: true
-      suffix: ''
-  Owner:
-    default: false
-    permissions:
-    - '*'
-    - -vanish.effects.*
-    - +vanish.effects.toggle.all
-    inheritance:
-    - admin
-    info:
-      prefix: '&4'
       build: true
       suffix: ''
