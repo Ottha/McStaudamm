@@ -114,6 +114,8 @@ groups:
     permissions:
     - essentials.afk
     - essentials.afk.auto
+    - essentials.build
+    - essentials.destroy
     - essentials.back
     - essentials.back.ondeath
     - essentials.balance
