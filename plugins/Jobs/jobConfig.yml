@@ -1366,10 +1366,6 @@ Jobs:
         income: 2.0
         points: 2
         experience: 4.0
-      SQUID:
-        income: 2.0
-        points: 2
-        experience: 2.0
       RABBIT:
         income: 2.0
         points: 2
@@ -1700,36 +1696,64 @@ Jobs:
       Data: 0
     Craft:
       '333':
-        income: 10.0
-        points: 10.0
-        experience: 10.0      
+        income: 2.0
+        points: 2.0
+        experience: 2.0
+      '346':
+        income: 2.0
+        points: 2.0
+        experience: 2.0        
+      '444':
+        income: 2.0
+        points: 2.0
+        experience: 2.0
+      '445':
+        income: 2.0
+        points: 2.0
+        experience: 2.0
+      '446':
+        income: 2.0
+        points: 2.0
+        experience: 2.0
+      '447':
+        income: 2.0
+        points: 2.0
+        experience: 2.0
+      '448':
+        income: 2.0
+        points: 2.0
+        experience: 2.0    
     Fish:
       '349-0':
+        income: 10.0
+        points: 10.0
+        experience: 10.0
+      '349-1':
         income: 15.0
         points: 15.0
-        experience: 15.0
-      '349-1':
+        experience: 20.0
+      '349-2':
         income: 20.0
         points: 20.0
-        experience: 25.0
-      '349-2':
-        income: 25.0
-        points: 25.0
-        experience: 25.0
+        experience: 20.0
       '349-3':
-        income: 25.0
-        points: 25.0
-        experience: 25.0
+        income: 20.0
+        points: 20.0
+        experience: 20.0
     Kill:
+      SQUID:
+        income: 10.0
+        points: 10.0
+        experience: 10.0     
       Player:
         income: 7.5
         points: 7.5
         experience: 7.5
     max-level: 200
-  Weaponsmith:
-    fullname: Weaponsmith
-    shortname: W
-    description: Earns money from crafting and repairing weapons.
+  Smith:
+    fullname: Smith
+    shortname: Sm
+    description: Earns money from crafting and repairing tools and weapons.
     ChatColour: DARK_PURPLE
     chat-display: full
     #max-level: 10
@@ -1742,10 +1766,37 @@ Jobs:
       Id: 58
       Data: 0
     Craft:
-      WOOD_SWORD:
+      WOODEN_SWORD:
         income: 1.0
         points: 1.0
-        experience: 2.0
+        experience: 1.0
+      WOODEN_HOE:
+        income: 1.0
+        points: 1.0
+        experience: 1.0
+      WOODEN_AXE:
+        income: 1.0
+        points: 1.0
+        experience: 1.0
+      WOODEN_PICKAXE:
+        income: 1.0
+        points: 1.0
+        experience: 1.0
+      WOODEN_SHOVEL:
+        income: 1.0
+        points: 1.0
+        experience: 1.0
+      IRON_SWORD:
+        income: 4.0
+        points: 4.0
+        experience: 4.0
+      IRON_SWORD:
+        income: 4.0
+        points: 4.0
+        experience: 4.0        
+      
+        
+        
       LEATHER_BOOTS:
         income: 3.0
         points: 3.0
