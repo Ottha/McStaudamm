@@ -11,11 +11,11 @@ locale-language: en
 # storage method, can be MySQL, sqlite
 storage-method: sqlite
 # Requires Mysql.
-mysql-username: root
-mysql-password: ''
+mysql-username: minecraft
+mysql-password: mcDBadmin
 mysql-hostname: localhost:3306
 mysql-database: minecraft
-mysql-table-prefix: ''
+mysql-table-prefix: j_
 # How often in minutes you want it to save.  This must be a non-zero number
 save-period: 10
 # Should player data be saved on disconnect?

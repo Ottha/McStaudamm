@@ -24,7 +24,7 @@ groups:
       suffix: ''
   Builder:
     default: false
-    permissions: []
+    permissions: [backpack.use, backpack.fullpickup, backpack.size.*]
     inheritance:
     - default
     - g:essentials_builder
