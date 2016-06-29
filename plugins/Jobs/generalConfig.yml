@@ -9,7 +9,7 @@
 # File in locale folder with same name should exist. Example: messages_ru.yml
 locale-language: en
 # storage method, can be MySQL, sqlite
-storage-method: sqlite
+storage-method: MySQL
 # Requires Mysql.
 mysql-username: minecraft
 mysql-password: mcDBadmin
