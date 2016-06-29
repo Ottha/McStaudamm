@@ -1698,6 +1698,11 @@ Jobs:
     Gui:
       Id: 346
       Data: 0
+    Craft:
+      BOAT:
+        income: 10.0
+        points: 10.0
+        experience: 10.0      
     Fish:
       '349-0':
         income: 15.0
