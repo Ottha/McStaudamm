@@ -141,6 +141,7 @@ command:
       price: '&eЦена: &6%price%'
       reqJobs: '&eТребуемые работы:'
       reqJobsList: '  &6%jobsname%&e: &e%level% lvl'
+      cantOpen: '&cCan''t open this page'
       NoPermForItem: '&cУ вас нет прав на совершение этого дествия!'
       NoPermToBuy: '&cУ вас нет прав на совершение этого дествия!'
       NoJobReqForitem: '&cВы, &6%jobname&c, нам не подходите!'

@@ -142,6 +142,7 @@ command:
       price: '&ePrecio: &6%price%'
       reqJobs: '&eTrabajos requeridos:'
       reqJobsList: '  &6%jobsname%&e: &e%level% lvl'
+      cantOpen: '&cCan''t open this page'
       NoPermForItem: '&cNo tienes el permiso necesario para ese objeto!'
       NoPermToBuy: '&cNo tienes permiso para comprar este objeto'
       NoJobReqForitem: '&cYou don''t have required job (&6%jobname%&e) with required

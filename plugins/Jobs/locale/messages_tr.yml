@@ -142,6 +142,7 @@ command:
       price: '&e�cret: &6%price%'
       reqJobs: '&eGereken Meslekler:'
       reqJobsList: '  &6%jobsname%&e: &e%level% lvl'
+      cantOpen: '&cCan''t open this page'
       NoPermForItem: '&cBunu kullanmak i�in yetkin yok!'
       NoPermToBuy: '&cBu item i�in yetkin yok'
       NoJobReqForitem: '&cBunu kullanman i�in (&6%jobname%&e) mesleginin (&6%joblevel%&e)

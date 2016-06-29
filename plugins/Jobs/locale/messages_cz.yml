@@ -142,6 +142,7 @@ command:
       price: '&eCena: &6%price%'
       reqJobs: '&ePozadovana prace:'
       reqJobsList: '  &6%jobsname%&e: &e%level% lvl'
+      cantOpen: '&cCan''t open this page'
       NoPermForItem: '&cNemate potrebna opravneni pro tuto polozku!'
       NoPermToBuy: '&cNemate dostatecna opravneni ke koupi tohoto predmetu'
       NoJobReqForitem: '&cNemate pozadovanoi level prace (&6%jobname%&e) pozadovano
