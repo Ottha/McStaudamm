@@ -37,3 +37,4 @@
 /plugins/dynmap/markers.yml.old
 /plugins/TerrainControl/worlds/test/*
 /plugins/MassiveCore/idnamecache.json
+/plugins/MinePacks/backpack.db
