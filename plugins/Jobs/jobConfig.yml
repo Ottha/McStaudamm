@@ -1216,48 +1216,56 @@ Jobs:
         points: 1.5
         experience: 3.0
       PUMPKIN:
-        income: 1.0
-        points: 1.0
-        experience: 1.0
+        income: 1.5
+        points: 1.5
+        experience: 3.0
       SUGAR_CANE_BLOCK:
-        income: 1.0
-        points: 1.0
-        experience: 1.0
+        income: 1.5
+        points: 1.5
+        experience: 3.0
       COCOA-4:
         income: 4
         points: 4
-        experience: 4.0
+        experience: 8.0
+      '31':
+        income: 0.25
+        points: 0.25
+        experience: 0.25             
+      '32':
+        income: 0.25
+        points: 0.25
+        experience: 0.25        
       '37':
-        income: 2
-        points: 2
+        income: 2.0
+        points: 2.0
         experience: 2.0
       '38':
-        income: 2
-        points: 2
+        income: 2.0
+        points: 2.0
         experience: 2.0
       '39':
-        income: 1
-        points: 1
+        income: 1.0
+        points: 1.0
         experience: 1.0
       '40':
-        income: 1
-        points: 1
+        income: 1.0
+        points: 1.0
         experience: 1.0
       '81':
-        income: 1
-        points: 1
+        income: 1.0
+        points: 1.0
         experience: 1.0
       '106':
-        income: 1
-        points: 1
+        income: 1.0
+        points: 1.0
         experience: 1.0        
       '111':
-        income: 2
-        points: 2
-        experience: 2.0        
+        income: 2.5
+        points: 2.5
+        experience: 2.5        
       '115':
-        income: 1
-        points: 1
+        income: 1.0
+        points: 1.0
         experience: 1.0
     Kill:
       Player:
