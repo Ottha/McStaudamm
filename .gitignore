@@ -34,6 +34,7 @@
 /plugins/GroupManager/backup/*
 /plugins/Jobs/jobs.sqlite.db
 /plugins/dynmap/Setrolas.pending
+/pluhins/dynmap/Salyrion.pending
 /plugins/dynmap/markers.yml.old
 /plugins/TerrainControl/worlds/test/*
 /plugins/MassiveCore/idnamecache.json
