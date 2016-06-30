@@ -1033,16 +1033,16 @@ Jobs:
         points: 0.25
         experience: 0.25
       GRASS:
-        income: 0.3
-        points: 0.3
-        experience: 0.3
+        income: 0.25
+        points: 0.25
+        experience: 0.25
       GRAVEL:
         income: 1
         points: 1
         experience: 1.0
       SAND:
-        income: 0.4
-        points: 0.4
+        income: 0.5
+        points: 0.5
         experience: 0.5
       CLAY:
         income: 1
@@ -1208,29 +1208,25 @@ Jobs:
         points: 1.5
         experience: 3.0
       CARROT-7:
-        income: 1.0
-        points: 1.0
-        experience: 1.0
+        income: 1.5
+        points: 1.5
+        experience: 3.0
       POTATO-7:
+        income: 1.5
+        points: 1.5
+        experience: 3.0
+      PUMPKIN:
         income: 1.0
         points: 1.0
-        experience: 1.0
-      PUMPKIN:
-        income: 0.5
-        points: 0.5
         experience: 1.0
       SUGAR_CANE_BLOCK:
-        income: 0.2
-        points: 0.2
-        experience: 0.2
+        income: 1.0
+        points: 1.0
+        experience: 1.0
       COCOA-4:
         income: 4
         points: 4
         experience: 4.0
-      '111':
-        income: 2
-        points: 2
-        experience: 2.0
       '37':
         income: 2
         points: 2
@@ -1247,25 +1243,20 @@ Jobs:
         income: 1
         points: 1
         experience: 1.0
-      '106':
-        income: 1
-        points: 1
-        experience: 1.0
       '81':
         income: 1
         points: 1
         experience: 1.0
-      '115':
+      '106':
         income: 1
         points: 1
-        experience: 1.0
-    Place:
-      CROPS-0:
-        income: 3.0
-        points: 3
-        experience: 3.0
-      SUGAR_CANE_BLOCK:
-        income: 1.0
+        experience: 1.0        
+      '111':
+        income: 2
+        points: 2
+        experience: 2.0        
+      '115':
+        income: 1
         points: 1
         experience: 1.0
     Kill:
