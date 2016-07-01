@@ -1,32 +1,32 @@
 spawns: 
   default: 
-    world: Setrolas
-    x: 932.9776101685442
+    world: Salyrion
+    x: 932.9205218036724
     y: 98.0
-    z: -16469.640135517107
-    yaw: 88.35001
-    pitch: 9.15
+    z: -16469.945900645856
+    yaw: 82.79996
+    pitch: 59.100006
   moderator: 
-    world: Setrolas
-    x: 932.9776101685442
+    world: Salyrion
+    x: 932.9205218036724
     y: 98.0
-    z: -16469.640135517107
-    yaw: 88.35001
-    pitch: 9.15
+    z: -16469.945900645856
+    yaw: 82.79996
+    pitch: 59.100006
   admin: 
-    world: Setrolas
-    x: 932.9776101685442
+    world: Salyrion
+    x: 932.9205218036724
     y: 98.0
-    z: -16469.640135517107
-    yaw: 88.35001
-    pitch: 9.15
+    z: -16469.945900645856
+    yaw: 82.79996
+    pitch: 59.100006
   builder: 
-    world: Setrolas
-    x: 932.9776101685442
+    world: Salyrion
+    x: 932.9205218036724
     y: 98.0
-    z: -16469.640135517107
-    yaw: 88.35001
-    pitch: 9.15
+    z: -16469.945900645856
+    yaw: 82.79996
+    pitch: 59.100006
   "*": 
     world: Setrolas
     x: 932.9776101685442
