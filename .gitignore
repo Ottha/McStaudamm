@@ -37,6 +37,7 @@
 /pluhins/dynmap/Salyrion.pending
 /plugins/dynmap/markers.yml.old
 /plugins/TerrainControl/worlds/test/*
-/plugins/MassiveCore/idnamecache.json
+/plugins/MassiveCore/*
+!/plugins/MassiveCore/conf.json
 /plugins/MinePacks/backpack.db
 /Salyrion
