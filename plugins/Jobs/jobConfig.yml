@@ -1286,19 +1286,6 @@ Jobs:
     Gui:
       Id: 261
       Data: 0
-    Tame:
-      Wolf:
-        income: 20.0
-        points: 20
-        experience: 15.0
-      Ocelot:
-        income: 20.0
-        points: 20
-        experience: 15.0
-      Horse:
-        income: 20.0
-        points: 20
-        experience: 15.0
     Kill:
       Chicken:
         income: 5.0
