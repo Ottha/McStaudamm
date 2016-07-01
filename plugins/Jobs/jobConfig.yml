@@ -454,7 +454,7 @@ Jobs:
 # from this point you can edit jobs by your liking, rename, remove or add new ones
   Woodcutter:
     fullname: Woodcutter
-    shortname: W
+    shortname: Wc
     description: Earns money felling and planting trees
     ChatColour: GREEN
     chat-display: full
@@ -527,7 +527,7 @@ Jobs:
     max-level: 200
   Miner:
     fullname: Miner
-    shortname: M
+    shortname: Mi
     description: Earns money mining minerals and ores.
     ChatColour: DARK_GRAY
     chat-display: full
@@ -639,6 +639,14 @@ Jobs:
         income: 2.0
         points: 2.0
         experience: 2.0
+      '27':
+        income: 5.0
+        points: 5
+        experience: 5.0
+      '28':
+        income: 5.0
+        points: 5.0
+        experience: 5.0
       COAL_ORE:
         income: -1.0
         points: -1.0
@@ -673,9 +681,9 @@ Jobs:
         points: 7.5
         experience: 7.5
     max-level: 200
-  Builder:
-    fullname: Builder
-    shortname: B
+  Architect:
+    fullname: Architect
+    shortname: Ar
     description: Earns money for building structures.
     ChatColour: WHITE
     chat-display: full
@@ -690,305 +698,630 @@ Jobs:
       Data: 0
     Place:
       STONE-2:
-        income: 1.3
-        points: 1.3
-        experience: 2
+        income: 1.0
+        points: 1.0
+        experience: 1
       STONE-4:
-        income: 1.3
-        points: 1.3
-        experience: 2
+        income: 1.0
+        points: 1.0
+        experience: 1
       STONE-6:
-        income: 1.3
-        points: 1.3
-        experience: 2
+        income: 1.0
+        points: 1.0
+        experience: 1
       COBBLESTONE:
-        income: 0.7
-        points: 0.7
-        experience: 2
+        income: 0.1
+        points: 0.1
+        experience: 0.5
       '5':
-        income: 1.5
-        points: 1.5
-        experience: 2
+        income: 1.0
+        points: 1.0
+        experience: 1.0
+      '22':
+        income: 1.0
+        points: 1.0
+        experience: 1.0
+      '24':
+        income: 1.0
+        points: 1.0
+        experience: 1.0
       '35':
-        income: 1.5
-        points: 1.5
-        experience: 2
+        income: 1.0
+        points: 1.0
+        experience: 1.0
       '41':
-        income: 1.5
-        points: 1.5
-        experience: 2
+        income: 1.0
+        points: 1.0
+        experience: 1.0
       '42':
-        income: 1.5
-        points: 1.5
-        experience: 2
+        income: 1.0
+        points: 1.0
+        experience: 1.0
       '44':
-        income: 0.8
-        points: 0.8
-        experience: 2
+        income: 1.0
+        points: 1.0
+        experience: 1.0
       '45':
-        income: 1.5
-        points: 1.5
-        experience: 2
+        income: 1.0
+        points: 1.0
+        experience: 1.0
       '47':
-        income: 1.5
-        points: 1.5
-        experience: 2
+        income: 1.0
+        points: 1.0
+        experience: 1.0
       '48':
-        income: 1.5
-        points: 1.5
-        experience: 2
+        income: 1.0
+        points: 1.0
+        experience: 1.0
       '49':
-        income: 1.5
-        points: 1.5
-        experience: 2
+        income: 1.0
+        points: 1.0
+        experience: 1.0
       '53':
-        income: 1.5
-        points: 1.5
-        experience: 2
+        income: 1.0
+        points: 1.0
+        experience: 1.0
       '54':
-        income: 1.5
-        points: 1.5
-        experience: 2
+        income: 1.0
+        points: 1.0
+        experience: 1.0
       '57':
-        income: 1.5
-        points: 1.5
-        experience: 2
+        income: 1.0
+        points: 1.0
+        experience: 1.0
       '58':
-        income: 1.5
-        points: 1.5
-        experience: 2
+        income: 1.0
+        points: 1.0
+        experience: 1.0
       '61':
-        income: 1.5
-        points: 1.5
-        experience: 2
+        income: 1.0
+        points: 1.0
+        experience: 1.0
       '65':
-        income: 1.5
-        points: 1.5
-        experience: 2
+        income: 1.0
+        points: 1.0
+        experience: 1.0
       '67':
-        income: 1.5
-        points: 1.5
-        experience: 2
+        income: 1.0
+        points: 1.0
+        experience: 1.0
       '79':
-        income: 1.5
-        points: 1.5
-        experience: 2
+        income: 1.0
+        points: 1.0
+        experience: 1.0
       '80':
         income: 1.0
         points: 1.0
-        experience: 2
+        experience: 1.0
       '84':
         income: 1.0
         points: 1.0
-        experience: 2
+        experience: 1.0
       '85':
-        income: 1.5
-        points: 1.5
-        experience: 2
+        income: 1.0
+        points: 1.0
+        experience: 1.0
       '89':
-        income: 1.5
-        points: 1.5
-        experience: 2
+        income: 1.0
+        points: 1.0
+        experience: 1.0
       '95':
-        income: 1.5
-        points: 1.5
-        experience: 2
+        income: 1.0
+        points: 1.0
+        experience: 1.0
       '96':
-        income: 1.5
-        points: 1.5
-        experience: 2
+        income: 1.0
+        points: 1.0
+        experience: 1.0
       '98':
-        income: 1.5
-        points: 1.5
-        experience: 2
+        income: 1.0
+        points: 1.0
+        experience: 1.0
       '101':
-        income: 1.5
-        points: 1.5
-        experience: 2
+        income: 1.0
+        points: 1.0
+        experience: 1.0
       '102':
-        income: 1.5
-        points: 1.5
-        experience: 2
+        income: 1.0
+        points: 1.0
+        experience: 1.0
       '107':
-        income: 1.5
-        points: 1.5
-        experience: 2
+        income: 1.0
+        points: 1.0
+        experience: 1.0
       '108':
-        income: 1.5
-        points: 1.5
-        experience: 2
+        income: 1.0
+        points: 1.0
+        experience: 1.0
       '109':
-        income: 1.5
-        points: 1.5
-        experience: 2
+        income: 1.0
+        points: 1.0
+        experience: 1.0
       '112':
-        income: 1.5
-        points: 1.5
-        experience: 2
+        income: 1.0
+        points: 1.0
+        experience: 1.0
       '113':
-        income: 1.5
-        points: 1.5
-        experience: 2
+        income: 1.0
+        points: 1.0
+        experience: 1.0
       '114':
-        income: 1.5
-        points: 1.5
-        experience: 2
+        income: 1.0
+        points: 1.0
+        experience: 1.0
       '116':
-        income: 1.5
-        points: 1.5
-        experience: 2
+        income: 1.0
+        points: 1.0
+        experience: 1.0
       '120':
-        income: 1.5
-        points: 1.5
-        experience: 2
+        income: 1.0
+        points: 1.0
+        experience: 1.0
       '123':
         income: 1.0
         points: 1.0
-        experience: 2
+        experience: 1.0
       '126':
-        income: 0.8
-        points: 0.8
-        experience: 2
+        income: 1.0
+        points: 1.0
+        experience: 1.0
       '128':
-        income: 1.5
-        points: 1.5
-        experience: 2
+        income: 1.0
+        points: 1.0
+        experience: 1.0
       '130':
-        income: 1.5
-        points: 1.5
-        experience: 2
+        income: 1.0
+        points: 1.0
+        experience: 1.0
       '133':
-        income: 1.5
-        points: 1.5
-        experience: 2
+        income: 1.0
+        points: 1.0
+        experience: 1.0
       '134':
-        income: 1.5
-        points: 1.5
-        experience: 2
+        income: 1.0
+        points: 1.0
+        experience: 1.0
       '139':
-        income: 1.5
-        points: 1.5
-        experience: 2
+        income: 1.0
+        points: 1.0
+        experience: 1.0
       '146':
-        income: 1.5
-        points: 1.5
-        experience: 2
+        income: 1.0
+        points: 1.0
+        experience: 1.0
       '152':
-        income: 1.5
-        points: 1.5
-        experience: 2
+        income: 1.0
+        points: 1.0
+        experience: 1.0
       '154':
-        income: 1.5
-        points: 1.5
-        experience: 2
+        income: 1.0
+        points: 1.0
+        experience: 1.0
       '155':
-        income: 1.5
-        points: 1.5
-        experience: 2
+        income: 1.0
+        points: 1.0
+        experience: 1.0
       '156':
-        income: 1.5
-        points: 1.5
-        experience: 2
+        income: 1.0
+        points: 1.0
+        experience: 1.0
       '159':
-        income: 1.5
-        points: 1.5
-        experience: 2
+        income: 1.0
+        points: 1.0
+        experience: 1.0
       '160':
-        income: 1.5
-        points: 1.5
-        experience: 2
+        income: 1.0
+        points: 1.0
+        experience: 1.0
       '161':
-        income: 1.5
-        points: 1.5
-        experience: 2
+        income: 1.0
+        points: 1.0
+        experience: 1.0
       '163':
-        income: 1.5
-        points: 1.5
-        experience: 2
+        income: 1.0
+        points: 1.0
+        experience: 1.0
       '164':
-        income: 1.5
-        points: 1.5
-        experience: 2
+        income: 1.0
+        points: 1.0
+        experience: 1.0
       '167':
-        income: 1.5
-        points: 1.5
-        experience: 2
+        income: 1.0
+        points: 1.0
+        experience: 1.0
       '168':
-        income: 1.3
-        points: 1.3
-        experience: 1.9
+        income: 1.0
+        points: 1.0
+        experience: 1.0
       '169':
-        income: 1.5
-        points: 1.5
-        experience: 2
+        income: 1.0
+        points: 1.0
+        experience: 1.0
       '170':
-        income: 1.5
-        points: 1.5
-        experience: 2
+        income: 1.0
+        points: 1.0
+        experience: 1.0
+      '171':
+        income: 1.0
+        points: 1.0
+        experience: 1.0
       '172':
-        income: 1.5
-        points: 1.5
-        experience: 2
+        income: 1.0
+        points: 1.0
+        experience: 1.0
       '173':
-        income: 1.5
-        points: 1.5
-        experience: 2
+        income: 1.0
+        points: 1.0
+        experience: 1.0
       '174':
-        income: 1.5
-        points: 1.5
-        experience: 2
+        income: 1.0
+        points: 1.0
+        experience: 1.0
       '179':
-        income: 1.5
-        points: 1.5
-        experience: 2
+        income: 1.0
+        points: 1.0
+        experience: 1.0
       '180':
-        income: 1.5
-        points: 1.5
-        experience: 2
+        income: 1.0
+        points: 1.0
+        experience: 1.0
       '182':
-        income: 0.8
-        points: 0.8
-        experience: 2
+        income: 1.0
+        points: 1.0
+        experience: 1.0
       '183':
-        income: 1.5
-        points: 1.5
-        experience: 2
+        income: 1.0
+        points: 1.0
+        experience: 1.0
       '184':
-        income: 1.5
-        points: 1.5
-        experience: 2
+        income: 1.0
+        points: 1.0
+        experience: 1.0
       '185':
-        income: 1.5
-        points: 1.5
-        experience: 2
+        income: 1.0
+        points: 1.0
+        experience: 1.0
       '186':
-        income: 1.5
-        points: 1.5
-        experience: 2
+        income: 1.0
+        points: 1.0
+        experience: 1.0
       '187':
-        income: 1.5
-        points: 1.5
-        experience: 2
+        income: 1.0
+        points: 1.0
+        experience: 1.0
       '188':
-        income: 1.5
-        points: 1.5
-        experience: 2
+        income: 1.0
+        points: 1.0
+        experience: 1.0
       '189':
-        income: 1.5
-        points: 1.5
-        experience: 2
+        income: 1.0
+        points: 1.0
+        experience: 1.0
       '190':
-        income: 1.5
-        points: 1.5
-        experience: 2
+        income: 1.0
+        points: 1.0
+        experience: 1.0
       '191':
-        income: 1.5
-        points: 1.5
-        experience: 2
+        income: 1.0
+        points: 1.0
+        experience: 1.0
       '192':
-        income: 1.5
-        points: 1.5
-        experience: 2
+        income: 1.0
+        points: 1.0
+        experience: 1.0
+    Break:
+      STONE-2:
+        income: -1.0
+        points: -1.0
+        experience: -1.0
+      STONE-4:
+        income: -1.0
+        points: -1.0
+        experience: -1.0
+      STONE-6:
+        income: -1.0
+        points: -1.0
+        experience: -1.0
+      COBBLESTONE:
+        income: -0.5
+        points: -0.5
+        experience: -0.5
+      '5':
+        income: -1.0
+        points: -1.0
+        experience: -1.0
+      '22':
+        income: -1.0
+        points: -1.0
+        experience: -1.0
+      '24':
+        income: -1.0
+        points: -1.0
+        experience: -1.0
+      '35':
+        income: -1.0
+        points: -1.0
+        experience: -1.0
+      '41':
+        income: -1.0
+        points: -1.0
+        experience: -1.0
+      '42':
+        income: -1.0
+        points: -1.0
+        experience: -1.0
+      '44':
+        income: -1.0
+        points: -1.0
+        experience: -1.0
+      '45':
+        income: -1.0
+        points: -1.0
+        experience: -1.0
+      '47':
+        income: -1.0
+        points: -1.0
+        experience: -1.0
+      '48':
+        income: -1.0
+        points: -1.0
+        experience: -1.0
+      '49':
+        income: -1.0
+        points: -1.0
+        experience: -1.0
+      '53':
+        income: -1.0
+        points: -1.0
+        experience: -1.0
+      '54':
+        income: -1.0
+        points: -1.0
+        experience: -1.0
+      '57':
+        income: -1.0
+        points: -1.0
+        experience: -1.0
+      '58':
+        income: -1.0
+        points: -1.0
+        experience: -1.0
+      '61':
+        income: -1.0
+        points: -1.0
+        experience: -1.0
+      '65':
+        income: -1.0
+        points: -1.0
+        experience: -1.0
+      '67':
+        income: -1.0
+        points: -1.0
+        experience: -1.0
+      '79':
+        income: -1.0
+        points: -1.0
+        experience: -1.0
+      '80':
+        income: -1.0
+        points: -1.0
+        experience: -1.0
+      '84':
+        income: -1.0
+        points: -1.0
+        experience: -1.0
+      '85':
+        income: -1.0
+        points: -1.0
+        experience: -1.0
+      '89':
+        income: -1.0
+        points: -1.0
+        experience: -1.0
+      '95':
+        income: -1.0
+        points: -1.0
+        experience: -1.0
+      '96':
+        income: -1.0
+        points: -1.0
+        experience: -1.0
+      '98':
+        income: -1.0
+        points: -1.0
+        experience: -1.0
+      '101':
+        income: -1.0
+        points: -1.0
+        experience: -1.0
+      '102':
+        income: -1.0
+        points: -1.0
+        experience: -1.0
+      '107':
+        income: -1.0
+        points: -1.0
+        experience: -1.0
+      '108':
+        income: -1.0
+        points: -1.0
+        experience: -1.0
+      '109':
+        income: -1.0
+        points: -1.0
+        experience: -1.0
+      '112':
+        income: -1.0
+        points: -1.0
+        experience: -1.0
+      '113':
+        income: -1.0
+        points: -1.0
+        experience: -1.0
+      '114':
+        income: -1.0
+        points: -1.0
+        experience: -1.0
+      '116':
+        income: -1.0
+        points: -1.0
+        experience: -1.0
+      '120':
+        income: -1.0
+        points: -1.0
+        experience: -1.0
+      '123':
+        income: -1.0
+        points: -1.0
+        experience: -1.0
+      '126':
+        income: -1.0
+        points: -1.0
+        experience: -1.0
+      '128':
+        income: -1.0
+        points: -1.0
+        experience: -1.0
+      '130':
+        income: -1.0
+        points: -1.0
+        experience: -1.0
+      '133':
+        income: -1.0
+        points: -1.0
+        experience: -1.0
+      '134':
+        income: -1.0
+        points: -1.0
+        experience: -1.0
+      '139':
+        income: -1.0
+        points: -1.0
+        experience: -1.0
+      '146':
+        income: -1.0
+        points: -1.0
+        experience: -1.0
+      '152':
+        income: -1.0
+        points: -1.0
+        experience: -1.0
+      '154':
+        income: -1.0
+        points: -1.0
+        experience: -1.0
+      '155':
+        income: -1.0
+        points: -1.0
+        experience: -1.0
+      '156':
+        income: -1.0
+        points: -1.0
+        experience: -1.0
+      '159':
+        income: -1.0
+        points: -1.0
+        experience: -1.0
+      '160':
+        income: -1.0
+        points: -1.0
+        experience: -1.0
+      '161':
+        income: -1.0
+        points: -1.0
+        experience: -1.0
+      '163':
+        income: -1.0
+        points: -1.0
+        experience: -1.0
+      '164':
+        income: -1.0
+        points: -1.0
+        experience: -1.0
+      '167':
+        income: -1.0
+        points: -1.0
+        experience: -1.0
+      '168':
+        income: -1.0
+        points: -1.0
+        experience: -1.0
+      '169':
+        income: -1.0
+        points: -1.0
+        experience: -1.0
+      '170':
+        income: -1.0
+        points: -1.0
+        experience: -1.0
+      '171':
+        income: -1.0
+        points: -1.0
+        experience: -1.0
+      '172':
+        income: -1.0
+        points: -1.0
+        experience: -1.0
+      '173':
+        income: -1.0
+        points: -1.0
+        experience: -1.0
+      '174':
+        income: -1.0
+        points: -1.0
+        experience: -1.0
+      '179':
+        income: -1.0
+        points: -1.0
+        experience: -1.0
+      '180':
+        income: -1.0
+        points: -1.0
+        experience: -1.0
+      '182':
+        income: -1.0
+        points: -1.0
+        experience: -1.0
+      '183':
+        income: -1.0
+        points: -1.0
+        experience: -1.0
+      '184':
+        income: -1.0
+        points: -1.0
+        experience: -1.0
+      '185':
+        income: -1.0
+        points: -1.0
+        experience: -1.0
+      '186':
+        income: -1.0
+        points: -1.0
+        experience: -1.0
+      '187':
+        income: -1.0
+        points: -1.0
+        experience: -1.0
+      '188':
+        income: -1.0
+        points: -1.0
+        experience: -1.0
+      '189':
+        income: -1.0
+        points: -1.0
+        experience: -1.0
+      '190':
+        income: -1.0
+        points: -1.0
+        experience: -1.0
+      '191':
+        income: -1.0
+        points: -1.0
+        experience: -1.0
+      '192':
+        income: -1.0
+        points: -1.0
+        experience: -1.0
     Kill:
       Player:
         income: 7.5
@@ -997,7 +1330,7 @@ Jobs:
     max-level: 200
   Digger:
     fullname: Digger
-    shortname: D
+    shortname: Di
     description: Earns money for terraforming the world.
     ChatColour: GOLD
     chat-display: full
@@ -1012,21 +1345,21 @@ Jobs:
       Data: 0
     Break:
       SANDSTONE:
-        income: 1.5
-        points: 1.5
-        experience: 1.5
+        income: 2.0
+        points: 2.0
+        experience: 2.0
       SANDSTONE-1:
-        income: 1.5
-        points: 1.5
-        experience: 1.5
+        income: 2.0
+        points: 2.0
+        experience: 2.0
       SANDSTONE-2:
-        income: 1.5
-        points: 1.5
-        experience: 1.5 
+        income: 2.0
+        points: 2.0
+        experience: 2.0
       '179':
-        income: 1.5
-        points: 1.5
-        experience: 1.5
+        income: 2.0
+        points: 2.0
+        experience: 2.0
       DIRT:
         income: 0.1
         points: 0.1
@@ -1036,21 +1369,21 @@ Jobs:
         points: 0.1
         experience: 0.1
       GRAVEL:
-        income: 0.75
-        points: 0.75
-        experience: 0.75
+        income: 2.0
+        points: 2.0
+        experience: 2.0
       SAND:
-        income: 0.75
-        points: 0.75
-        experience: 0.75
+        income: 2.0
+        points: 2.0
+        experience: 2.0
       CLAY:
-        income: 1.5
-        points: 1.5
-        experience: 1.5
+        income: 2.0
+        points: 2.0
+        experience: 2.0
       '159':
-        income: 1.5
-        points: 1.5
-        experience: 1.5
+        income: 2.0
+        points: 2.0
+        experience: 2.0
     Kill:
       Player:
         income: 7.5
@@ -1271,9 +1604,9 @@ Jobs:
         points: 7.5
         experience: 7.5
     max-level: 200
-  Hunter:
-    fullname: Hunter
-    shortname: H
+  Huntsman:
+    fullname: Huntsman
+    shortname: Hu
     description: Earns money killing animals and monsters.
     ChatColour: RED
     chat-display: full
@@ -1286,107 +1619,156 @@ Jobs:
     Gui:
       Id: 261
       Data: 0
-    Kill:
-      Chicken:
+    Fish:
+      '349-0':
+        income: 3.0
+        points: 3.0
+        experience: 3.0
+      '349-1':
         income: 5.0
-        points: 5
+        points: 5.0
         experience: 5.0
+      '349-2':
+        income: 10.0
+        points: 10.0
+        experience: 10.0
+      '349-3':
+        income: 10.0
+        points: 10.0
+        experience: 10.0
+    Kill:
+      SQUID:
+        income: 5.0
+        points: 5.0
+        experience: 5.0
+      Chicken:
+        income: 3.0
+        points: 3.0
+        experience: 3.0
       Cow:
-        income: 6.0
-        points: 5
+        income: 5.0
+        points: 5.0
         experience: 5.0
       Pig:
         income: 5.0
-        points: 5
+        points: 5.0
         experience: 5.0
       Sheep:
         income: 5.0
-        points: 5
+        points: 5.0
         experience: 5.0
       Wolf:
         income: 10.0
-        points: 10
-        experience: 5.0
+        points: 10.0
+        experience: 10.0
+      Ocelot:
+        income: 10.0
+        points: 10.0
+        experience: 10.0
+      POLAR_BEAR:
+        income: 10.0
+        points: 10.0
+        experience: 10.0
+      EntityHorse:
+        income: 10.0
+        points: 10.0
+        experience: 10.0
       Creeper:
         income: 15.0
-        points: 15
+        points: 15.0
         experience: 15.0
       Skeleton:
         income: 10.0
-        points: 10
-        experience: 15.0
+        points: 10.0
+        experience: 10.0
       Spider:
         income: 10.0
-        points: 10
-        experience: 15.0
+        points: 10.0
+        experience: 10.0
       Zombie:
         income: 10.0
-        points: 10
-        experience: 15.0
+        points: 10.0
+        experience: 10.0
+      PIG_ZOMBIE:
+        income: 10.0
+        points: 10.0
+        experience: 10.0
+      SLIME:
+        income: 10.0
+        points: 10.0
+        experience: 10.0
+      MAGMA_CUBE:
+        income: 10.0
+        points: 10.0
+        experience: 10.0
       BLAZE:
         income: 20.0
-        points: 20
-        experience: 15.0
+        points: 20.0
+        experience: 20.0
+      WITCH:
+        income: 20.0
+        points: 20.0
+        experience: 20.0
       CAVE_SPIDER:
         income: 20.0
-        points: 20
-        experience: 15.0
+        points: 20.0
+        experience: 20.0
       ENDERMAN:
-        income: 2.0
-        points: 2
-        experience: 2.0
+        income: 20.0
+        points: 20.0
+        experience: 20.0
       GHAST:
         income: 30.0
-        points: 30
+        points: 30.0
         experience: 30.0
       GIANT:
         income: 250.0
-        points: 250
+        points: 250.0
         experience: 100.0
       IRON_GOLEM:
         income: 30.0
-        points: 30
+        points: 30.0
         experience: 30.0
       MUSHROOM_COW:
         income: 5.0
-        points: 5
-        experience: 5.0
-      PIG_ZOMBIE:
-        income: 5.0
-        points: 5
+        points: 5.0
         experience: 5.0
       SILVERFISH:
-        income: 3.0
-        points: 3
+        income: 5.0
+        points: 5.0
         experience: 5.0
       SNOWMAN:
-        income: 2.0
-        points: 2
-        experience: 4.0
+        income: 5.0
+        points: 5.0
+        experience: 5.0
       RABBIT:
-        income: 2.0
-        points: 2
-        experience: 2.0
+        income: 3.0
+        points: 3.0
+        experience: 3.0
       GUARDIAN:
-        income: 2.0
-        points: 2
-        experience: 2.0
+        income: 20.0
+        points: 20.0
+        experience: 20.0
+      GUARDIANELDER:
+        income: 50.0
+        points: 50.0
+        experience: 50.0
       SHULKER:
         income: 5.0
-        points: 5
+        points: 5.0
         experience: 5.0
       WITHER:
         income: 50.0
-        points: 50
-        experience: 120.0
+        points: 50.0
+        experience: 50.0
       ENDER_DRAGON:
         income: 2000.0
-        points: 2000
+        points: 2000.0
         experience: 2000.0
       Player:
         income: 10.0
         points: 10.0
-        experience: 7.5
+        experience: 10.0
     max-level: 200
   Explorer:
     fullname: Explorer
@@ -1429,11 +1811,11 @@ Jobs:
         income: 7.5
         experience: 7.5
     max-level: 200
-  Crafter:
-    fullname: Crafter
-    shortname: Cr
+  Thinker:
+    fullname: Thinker
+    shortname: Th
     description: Earns money from crafting items.
-    ChatColour: RED
+    ChatColour: LIGHT_PURPLE
     chat-display: full
     #max-level: 10
     #slots: 10
@@ -1445,10 +1827,14 @@ Jobs:
       Id: 61
       Data: 0  
     Craft:
-      '280':
+      '5':
         income: 0.1
         points: 0.1
         experience: 0.1
+      '19':
+        income: 5.0
+        points: 5.0
+        experience: 5.0
       '23':
         income: 4.0
         points: 4.0
@@ -1456,24 +1842,36 @@ Jobs:
       '25':
         income: 1.5
         points: 1.5
-        experience: 3.0
+        experience: 1.5
       '27':
         income: 5.0
-        points: 5
+        points: 5.0
         experience: 5.0
       '28':
         income: 5.0
-        points: 4.0
+        points: 5.0
         experience: 5.0
       '29':
+        income: 5.0
+        points: 5.0
+        experience: 5.0
+      '33':
         income: 3.0
         points: 3.0
         experience: 3.0
-      'tnt':
-        income: 4.0
-        points: 4.0
-        experience: 4.0
-      'chest':
+      '45':
+        income: 1.0
+        points: 1.0
+        experience: 1.0
+      '46':
+        income: 10.0
+        points: 10.0
+        experience: 10.0
+      '50':
+        income: 0.1
+        points: 0.1
+        experience: 0.1
+      '54':
         income: 1.3
         points: 1.3
         experience: 1.3
@@ -1486,50 +1884,126 @@ Jobs:
         points: 1.0
         experience: 1.0
       '65':
-        income: 0.1
-        points: 0.1
-        experience: 0.1
+        income: 0.25
+        points: 0.25
+        experience: 0.25
       '66':
-        income: 1.1
+        income: 1.0
         points: 1.0
-        experience: 1.1
-      '84':
-        income: 10.0
-        points: 10.0
-        experience: 20.0
-      '95':
-        income: 0.3
-        points: 0.3
-        experience: 0.3
-      '108':
-        income: 2.5
-        points: 2.5
-        experience: 3.0
-      '109':
+        experience: 1.0
+      '70':
         income: 0.5
         points: 0.5
         experience: 0.5
+      '72':
+        income: 0.5
+        points: 0.5
+        experience: 0.5
+      '84':
+        income: 10.0
+        points: 10.0
+        experience: 10.0
+      '85':
+        income: 0.5
+        points: 0.5
+        experience: 0.5
+      '91':
+        income: 2.0
+        points: 2.0
+        experience: 2.0
+      '93':
+        income: 1.0
+        points: 1.0
+        experience: 1.0
+      '95':
+        income: 0.5
+        points: 0.5
+        experience: 0.5
+      '96':
+        income: 0.5
+        points: 0.5
+        experience: 0.5
+      '98':
+        income: 1.0
+        points: 1.0
+        experience: 1.0
+      '101':
+        income: 1.5
+        points: 1.5
+        experience: 1.5
+      '102':
+        income: 0.5
+        points: 0.5
+        experience: 0.5
+      '107':
+        income: 0.5
+        points: 0.5
+        experience: 0.5
+      '108':
+        income: 1.5
+        points: 1.5
+        experience: 1.5
+      '109':
+        income: 1.5
+        points: 1.5
+        experience: 1.5
       '116':
         income: 30.0
         points: 30.0
-        experience: 40.0
+        experience: 30.0
+      '117':
+        income: 20.0
+        points: 20.0
+        experience: 20.0
+      '118':
+        income: 10.0
+        points: 10.0
+        experience: 10.0
+      '123':
+        income: 1.0
+        points: 1.0
+        experience: 1.0
+      '124':
+        income: 1.0
+        points: 1.0
+        experience: 1.0
+      '131':
+        income: 0.5
+        points: 0.5
+        experience: 0.5
+      '132':
+        income: 0.5
+        points: 0.5
+        experience: 0.5
       '138':
         income: 100.0
         points: 100.0
-        experience: 300.0
+        experience: 250.0
+      '139':
+        income: 1.0
+        points: 1.0
+        experience: 1.0
       '145':
         income: 20.0
         points: 20.0
-        experience: 25.0
+        experience: 20.0
       '146':
         income: 1.5
         points: 1.5
         experience: 1.5
       '147':
-        income: 3.0
-        points: 3.0
-        experience: 3.0
+        income: 2.5
+        points: 2.5
+        experience: 2.5
       '148':
+        income: 2.5
+        points: 2.5
+        experience: 2.5
+      '149':
+        income: 2.5
+        points: 2.5
+        experience: 2.5
+      '150':
         income: 2.5
         points: 2.5
         experience: 2.5
@@ -1537,7 +2011,7 @@ Jobs:
         income: 2.5
         points: 2.5
         experience: 2.5
-      'hopper':
+      '154':
         income: 7.0
         points: 7.0
         experience: 7.0
@@ -1548,19 +2022,23 @@ Jobs:
       '158':
         income: 2.0
         points: 2.0
-        experience: 3.0
+        experience: 2.0
       '159':
         income: 1.5
         points: 1.5
         experience: 1.5
       '160':
-        income: 0.2
-        points: 0.2
-        experience: 0.2
+        income: 0.5
+        points: 0.5
+        experience: 0.5
       '165':
         income: 1.0
         points: 1.0
         experience: 1.0
+      '167':
+        income: 3.0
+        points: 3.0
+        experience: 3.0
       '168':
         income: 3.0
         points: 3.0
@@ -1569,6 +2047,10 @@ Jobs:
         income: 10.0
         points: 10.0
         experience: 10.0
+      '171':
+        income: 0.5
+        points: 0.5
+        experience: 0.5
       '183':
         income: 0.5
         points: 0.5
@@ -1609,10 +2091,26 @@ Jobs:
         income: 0.5
         points: 0.5
         experience: 0.5
+      '321':
+        income: 0.5
+        points: 0.5
+        experience: 0.5
+      '323':
+        income: 0.5
+        points: 0.5
+        experience: 0.5
       '324':
         income: 0.5
         points: 0.5
         experience: 0.5
+      '328':
+        income: 2.5
+        points: 2.5
+        experience: 2.5
+      '329':
+        income: 2.5
+        points: 2.5
+        experience: 2.5
       '330':
         income: 8.0
         points: 8.0
@@ -1624,124 +2122,89 @@ Jobs:
       '345':
         income: 4.0
         points: 4.0
-        experience: 7.0
+        experience: 4.0
       '347':
         income: 7.0
         points: 7.0
         experience: 7.0
-      '354':
-        income: 8.0
-        points: 8.0
-        experience: 10.0
       '355':
         income: 3.0
         points: 3.0
         experience: 3.0
-      '379':
-        income: 2.8
-        points: 2.8
-        experience: 3.5
-      '380':
-        income: 7.0
-        points: 7.0
-        experience: 7.0
-      '427':
-        income: 0.15
-        points: 0.15
-        experience: 0.15
-      '428':
-        income: 0.15
-        points: 0.15
-        experience: 0.15
-      '429':
-        income: 0.15
-        points: 0.15
-        experience: 0.15
-      '430':
-        income: 0.15
-        points: 0.15
-        experience: 0.15
-      '431':
-        income: 0.15
-        points: 0.15
-        experience: 0.15
-    Smelt:
-      COOKED_CHICKEN:
+      '358':
         income: 3.0
         points: 3.0
         experience: 3.0
-    Kill:
-      Player:
-        income: 7.5
-        points: 7.5
-        experience: 7.5
-    max-level: 200
-  Fisherman:
-    fullname: Fisherman
-    shortname: Fi
-    description: Earns money from fishing.
-    ChatColour: AQUA
-    chat-display: full
-    #max-level: 10
-    #slots: 10
-    leveling-progression-equation: 10*(joblevel)+(joblevel*joblevel*4)
-    income-progression-equation: baseincome+(joblevel-1)*0.01-((baseincome+(joblevel-1)*0.01) * ((numjobs-1)*0.05))
-    points-progression-equation: basepoints+(joblevel-1)*0.01-((basepoints+(joblevel-1)*0.01) * ((numjobs-1)*0.05))
-    experience-progression-equation: baseexperience-(baseexperience*((numjobs-1) *0.01))
-    Gui:
-      Id: 346
-      Data: 0
-    Craft:
+      '427':
+        income: 0.5
+        points: 0.5
+        experience: 0.5
+      '428':
+        income: 0.5
+        points: 0.5
+        experience: 0.5
+      '429':
+        income: 0.5
+        points: 0.5
+        experience: 0.5
+      '430':
+        income: 0.5
+        points: 0.5
+        experience: 0.5
+      '431':
+        income: 0.5
+        points: 0.5
+        experience: 0.5
       '333':
-        income: 2.0
-        points: 2.0
-        experience: 2.0
-      '346':
-        income: 2.0
-        points: 2.0
-        experience: 2.0
+        income: 1.0
+        points: 1.0
+        experience: 1.0
       '444':
-        income: 2.0
-        points: 2.0
-        experience: 2.0
+        income: 1.0
+        points: 1.0
+        experience: 1.0
       '445':
-        income: 2.0
-        points: 2.0
-        experience: 2.0
+        income: 1.0
+        points: 1.0
+        experience: 1.0
       '446':
-        income: 2.0
-        points: 2.0
-        experience: 2.0
+        income: 1.0
+        points: 1.0
+        experience: 1.0
       '447':
-        income: 2.0
-        points: 2.0
-        experience: 2.0
+        income: 1.0
+        points: 1.0
+        experience: 1.0
       '448':
-        income: 2.0
-        points: 2.0
-        experience: 2.0
-    Fish:
-      '349-0':
-        income: 10.0
-        points: 10.0
-        experience: 10.0
-      '349-1':
-        income: 15.0
-        points: 15.0
-        experience: 20.0
-      '349-2':
-        income: 20.0
-        points: 20.0
-        experience: 20.0
-      '349-3':
-        income: 20.0
-        points: 20.0
-        experience: 20.0
+        income: 1.0
+        points: 1.0
+        experience: 1.0
+    Smelt:
+      '4':
+        income: 0.25
+        points: 0.25
+        experience: 0.25
+      '12':
+        income: 0.25
+        points: 0.25
+        experience: 0.25
+      '337':
+        income: 0.25
+        points: 0.25
+        experience: 0.25
+      IRON_INGOT:
+        income: 1.0
+        points: 1.0
+        experience: 1.0
+      GOLD_INGOT:
+        income: 3.0
+        points: 3.0
+        experience: 3.0
+      DIAMOND:
+        income: 5.0
+        points: 5.0
+        experience: 5.0
     Kill:
-      SQUID:
-        income: 10.0
-        points: 10.0
-        experience: 10.0
       Player:
         income: 7.5
         points: 7.5
@@ -1763,26 +2226,6 @@ Jobs:
       Id: 58
       Data: 0
     Craft:
-      WOODEN_SHOVEL:
-        income: 0.5
-        points: 0.5
-        experience: 0.5      
-      WOODEN_SWORD:
-        income: 1.0
-        points: 1.0
-        experience: 1.0
-      WOODEN_HOE:
-        income: 1.0
-        points: 1.0
-        experience: 1.0
-      WOODEN_AXE:
-        income: 1.5
-        points: 1.5
-        experience: 1.5
-      WOODEN_PICKAXE:
-        income: 1.5
-        points: 1.5
-        experience: 1.5
       STONE_SHOVEL:
         income: 1.5
         points: 1.5
@@ -1927,27 +2370,31 @@ Jobs:
         income: 16.0
         points: 16.0
         experience: 32.0
+      '259':
+        income: 3.0
+        points: 3.0
+        experience: 3.0
+      '261':
+        income: 5.0
+        points: 5.0
+        experience: 5.0
+      '262':
+        income: 0.5
+        points: 0.5
+        experience: 0.5
+      '325':
+        income: 5.0
+        points: 5.0
+        experience: 5.0
+      '346':
+        income: 5.0
+        points: 5.0
+        experience: 5.0
+      '359':
+        income: 4.0
+        points: 4.0
+        experience: 4.0
     Repair:
-      WOODEN_SHOVEL:
-        income: 0.1
-        points: 0.1
-        experience: 0.1      
-      WOODEN_SWORD:
-        income: 0.2
-        points: 0.2
-        experience: 0.2
-      WOODEN_HOE:
-        income: 0.2
-        points: 0.2
-        experience: 0.2
-      WOODEN_AXE:
-        income: 0.3
-        points: 0.3
-        experience: 0.3
-      WOODEN_PICKAXE:
-        income: 0.3
-        points: 0.3
-        experience: 0.3
       STONE_SHOVEL:
         income: 0.3
         points: 0.3
@@ -2108,37 +2555,42 @@ Jobs:
         income: 16.0
         points: 16.0
         experience: 32.0
-    Smelt:
-      IRON_INGOT:
+      '259':
+        income: 0.6
+        points: 0.6
+        experience: 0.6
+      '261':
         income: 1.0
         points: 1.0
-        experience: 1.5
-      GOLD_INGOT:
-        income: 3.0
-        points: 3.0
-        experience: 4.5
-      DIAMOND:
-        income: 5.0
-        points: 5.0
-        experience: 7.5
+        experience: 1.0
+      '346':
+        income: 1.0
+        points: 1.0
+        experience: 1.0
+      '359':
+        income: 0.8
+        points: 0.8
+        experience: 0.8
     Kill:
       Player:
         income: 7.5
         points: 7.5
         experience: 7.5
     max-level: 200
-  Brewer:
-    fullname: Brewer
-    shortname: Br
-    description: Earns money brewing potions.
-    ChatColour: LIGHT_PURPLE
+  Magician:
+    fullname: Magician
+    shortname: Mg
+    description: Earns money enchanting objects and brewing potions.
+    ChatColour: DARK_BLUE
     chat-display: full
+    #max-level: 10
+    #slots: 10
     leveling-progression-equation: 10*(joblevel)+(joblevel*joblevel*4)
     income-progression-equation: baseincome+(joblevel-1)*0.01-((baseincome+(joblevel-1)*0.01) * ((numjobs-1)*0.05))
     points-progression-equation: basepoints+(joblevel-1)*0.01-((basepoints+(joblevel-1)*0.01) * ((numjobs-1)*0.05))
     experience-progression-equation: baseexperience-(baseexperience*((numjobs-1) *0.01))
     Gui:
-      Id: 379
+      Id: 116
       Data: 0
     Brew:
       NETHER_STALK:
@@ -2193,32 +2645,7 @@ Jobs:
         income: 18.0
         points: 18.0
         experience: 18.0
-    Kill:
-      Player:
-        income: 7.5
-        points: 7.5
-        experience: 7.5        
-    max-level: 200
-  Enchanter:
-    fullname: Enchanter
-    shortname: E
-    description: Earns money enchanting objects.
-    ChatColour: DARK_BLUE
-    chat-display: full
-    #max-level: 10
-    #slots: 10
-    leveling-progression-equation: 10*(joblevel)+(joblevel*joblevel*4)
-    income-progression-equation: baseincome+(joblevel-1)*0.01-((baseincome+(joblevel-1)*0.01) * ((numjobs-1)*0.05))
-    points-progression-equation: basepoints+(joblevel-1)*0.01-((basepoints+(joblevel-1)*0.01) * ((numjobs-1)*0.05))
-    experience-progression-equation: baseexperience-(baseexperience*((numjobs-1) *0.01))
-    Gui:
-      Id: 116
-      Data: 0
     Enchant:
-      WOOD_SWORD:
-        income: 1.5
-        points: 1.5
-        experience: 3.0
       LEATHER_BOOTS:
         income: 1.0
         points: 1.0
@@ -2235,7 +2662,23 @@ Jobs:
         income: 2.0
         points: 2.0
         experience: 6.0
+      IRON_SHOVEL:
+        income: 3.0
+        points: 3.0
+        experience: 6.0
       IRON_SWORD:
+        income: 3.0
+        points: 3.0
+        experience: 6.0
+      IRON_HOE:
+        income: 3.0
+        points: 3.0
+        experience: 6.0
+      IRON_AXE:
+        income: 3.0
+        points: 3.0
+        experience: 6.0
+      IRON_PICKAXE:
         income: 3.0
         points: 3.0
         experience: 6.0
@@ -2255,10 +2698,26 @@ Jobs:
         income: 4.5
         points: 4.5
         experience: 9.0
+      GOLD_SPADE:
+        income: 4.5
+        points: 4.5
+        experience: 9.0
       GOLD_SWORD:
         income: 4.5
         points: 4.5
-        experience: 15.0
+        experience: 9.0
+      GOLD_HOE:
+        income: 4.5
+        points: 4.5
+        experience: 9.0
+      GOLD_AXE:
+        income: 4.5
+        points: 4.5
+        experience: 9.0
+      GOLD_PICKAXE:
+        income: 4.5
+        points: 4.5
+        experience: 9.0
       GOLD_BOOTS:
         income: 2.5
         points: 2.5
@@ -2275,22 +2734,26 @@ Jobs:
         income: 5.5
         points: 5.5
         experience: 15.0
+      DIAMOND_SPADE:
+        income: 9.0
+        points: 9.0
+        experience: 18.0
       DIAMOND_SWORD:
         income: 9.0
         points: 9.0
-        experience: 30.0
-      DIAMOND_SPADE:
-        income: 5.0
-        points: 5.0
-        experience: 30.0
-      DIAMOND_PICKAXE:
-        income: 10.0
-        points: 10.0
-        experience: 30.0
+        experience: 18.0
+      DIAMOND_HOE:
+        income: 9.0
+        points: 9.0
+        experience: 18.0
       DIAMOND_AXE:
-        income: 10.0
-        points: 10.0
-        experience: 30.0
+        income: 9.0
+        points: 9.0
+        experience: 18.0
+      DIAMOND_PICKAXE:
+        income: 9.0
+        points: 9.0
+        experience: 18.0
       DIAMOND_HELMET:
         income: 6.0
         points: 6.0
@@ -2298,15 +2761,51 @@ Jobs:
       DIAMOND_CHESTPLATE:
         income: 12.0
         points: 12.0
-        experience: 50.0
+        experience: 30.0
       DIAMOND_LEGGINGS:
         income: 12.0
         points: 12.0
-        experience: 50.0
+        experience: 30.0
       DIAMOND_BOOTS:
         income: 6.0
         points: 6.0
         experience: 30.0
+      CHAINMAIL_HELMET:
+        income: 9.0
+        points: 9.0
+        experience: 30.0
+      CHAINMAIL_CHESTPLATE:
+        income: 12.0
+        points: 12.0
+        experience: 30.0
+      CHAINMAIL_LEGGINGS:
+        income: 12.0
+        points: 12.0
+        experience: 30.0
+      CHAINMAIL_BOOTS:
+        income: 6.0
+        points: 6.0
+        experience: 30.0
+      '259':
+        income: 2.5
+        points: 2.5
+        experience: 7.5
+      '261':
+        income: 2.5
+        points: 2.5
+        experience: 7.5
+      '262':
+        income: 0.5
+        points: 0.5
+        experience: 7.5
+      '346':
+        income: 2.5
+        points: 2.5
+        experience: 7.5
+      '359':
+        income: 2.5
+        points: 2.5
+        experience: 7.5
       ARROW_DAMAGE-1:
         income: 10.0
         points: 10.0

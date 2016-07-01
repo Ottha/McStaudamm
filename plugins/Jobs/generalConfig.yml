@@ -64,7 +64,7 @@ broadcast:
     - 0
 # Maximum number of jobs a player can join.
 # Use 0 for no maximum
-max-jobs: 3
+max-jobs: 2
 # Hide jobs from player if they lack the permission to join the job
 hide-jobs-without-permission: false
 # Hide jobs info from player if they lack the permission to join the job
