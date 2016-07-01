@@ -42,3 +42,8 @@
 /plugins/MinePacks/backpack.db
 /plugins/dynmap/Salyrion.pending
 /Salyrion
+/plugins/Citizens/saves.yml
+/plugins/dynmap/ids-by-ip.txt
+/plugins/dynmap/web/tiles/_markers_/marker_Mandoras.json
+/plugins/dynmap/web/tiles/_markers_/marker_Tarlion.json
+
