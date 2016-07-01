@@ -482,6 +482,14 @@ Jobs:
         income: 2.5
         points: 2.5
         experience: 2.5
+      162-0:
+        income: 2.5
+        points: 2.5
+        experience: 2.5
+      162-1:
+        income: 2.5
+        points: 2.5
+        experience: 2.5        
       18-0:
         income: 0.5
         points: 0.5
@@ -506,14 +514,6 @@ Jobs:
         income: 0.5
         points: 0.5
         experience: 0.5
-      162-0:
-        income: 2.5
-        points: 2.5
-        experience: 2.5
-      162-1:
-        income: 2.5
-        points: 2.5
-        experience: 2.5
     Place:
       '6':
         income: 2
@@ -524,11 +524,6 @@ Jobs:
         income: 7.5
         points: 7.5
         experience: 7.5
-    custom-kill:
-      Woodcutter:
-        income: 10.0
-        points: 10.0
-        experience: 10.0
     max-level: 200
   Miner:
     fullname: Miner
@@ -580,45 +575,33 @@ Jobs:
         points: 1
         experience: 1
       COAL_ORE:
-        income: 3
-        points: 2
-        experience: 2
-      SANDSTONE:
-        income: 0.15
-        points: 0.15
-        experience: 0.2
-      SANDSTONE-1:
-        income: 0.15
-        points: 0.15
-        experience: 0.2
-      SANDSTONE-2:
-        income: 0.15
-        points: 0.15
-        experience: 0.2
+        income: 1
+        points: 1
+        experience: 1
       GLOWING_REDSTONE_ORE:
-        income: 2.5
-        points: 2
-        experience: 2
+        income: 3.0
+        points: 3.0
+        experience: 2.0
       IRON_ORE:
-        income: 3.5
-        points: 3
-        experience: 2
+        income: 2.0
+        points: 2.0
+        experience: 2.0
       GOLD_ORE:
-        income: 5
-        points: 4
-        experience: 2
+        income: 5.0
+        points: 5.0
+        experience: 2.0
       LAPIS_ORE:
         income: 7.5
-        points: 6
-        experience: 2
+        points: 7.5
+        experience: 2.0
       DIAMOND_ORE:
-        income: 10
-        points: 10
-        experience: 10
+        income: 10.0
+        points: 10.0
+        experience: 10.0
       EMERALD_ORE:
-        income: 15
-        points: 15
-        experience: 30
+        income: 10.0
+        points: 10.0
+        experience: 10.0
       QUARTZ_ORE:
         income: 2.5
         points: 2.5
@@ -633,20 +616,20 @@ Jobs:
         experience: 2.5
       NETHER_BRICK:
         income: 1.0
-        points: 1
+        points: 1.0
         experience: 1.0
       NETHER_BRICK_STAIRS:
-        income: 3
-        points: 3
-        experience: 3
+        income: 3.0
+        points: 3.0
+        experience: 3.0
       NETHER_FENCE:
-        income: 1
-        points: 1
-        experience: 1
+        income: 1.0
+        points: 1.0
+        experience: 1.0
       NETHERRACK:
-        income: 0.1
-        points: 0.1
-        experience: 0.1
+        income: 0.25
+        points: 0.25
+        experience: 0.25
       PRISMARINE:
         income: 2.5
         points: 2.5
@@ -657,29 +640,33 @@ Jobs:
         points: 2.0
         experience: 2.0
       COAL_ORE:
-        income: -3.0
-        points: -2.0
+        income: -1.0
+        points: -1.0
         experience: -2.0
       IRON_ORE:
-        income: -3.5
-        points: -3.0
+        income: -2.0
+        points: -2.0
         experience: -2.0
+      GLOWING_REDSTONE_ORE:
+        income: -3.0
+        points: -3.0
+        experience: -2.0        
       GOLD_ORE:
         income: -5.0
-        points: -4.0
+        points: -5.0
         experience: -2.0
       LAPIS_ORE:
         income: -7.5
-        points: -6.0
+        points: -7.5
         experience: -2.0
       DIAMOND_ORE:
         income: -10.0
         points: -10.0
         experience: -10.0
       EMERALD_ORE:
-        income: -15.0
-        points: -15.0
-        experience: -30.0
+        income: -10.0
+        points: -10.0
+        experience: -10.0
     Kill:
       Player:
         income: 7.5
@@ -1024,44 +1011,51 @@ Jobs:
       Id: 269
       Data: 0
     Break:
+      SANDSTONE:
+        income: 1.5
+        points: 1.5
+        experience: 1.5
+      SANDSTONE-1:
+        income: 1.5
+        points: 1.5
+        experience: 1.5
+      SANDSTONE-2:
+        income: 1.5
+        points: 1.5
+        experience: 1.5 
       '179':
-        income: 1
-        points: 1
-        experience: 1
+        income: 1.5
+        points: 1.5
+        experience: 1.5
       DIRT:
-        income: 0.25
-        points: 0.25
-        experience: 0.25
+        income: 0.1
+        points: 0.1
+        experience: 0.1
       GRASS:
-        income: 0.25
-        points: 0.25
-        experience: 0.25
+        income: 0.1
+        points: 0.1
+        experience: 0.1
       GRAVEL:
-        income: 1
-        points: 1
-        experience: 1.0
+        income: 0.75
+        points: 0.75
+        experience: 0.75
       SAND:
-        income: 0.5
-        points: 0.5
-        experience: 0.5
+        income: 0.75
+        points: 0.75
+        experience: 0.75
       CLAY:
-        income: 1
-        points: 1
-        experience: 1.0
+        income: 1.5
+        points: 1.5
+        experience: 1.5
       '159':
-        income: 1
-        points: 1
-        experience: 1.0
+        income: 1.5
+        points: 1.5
+        experience: 1.5
     Kill:
       Player:
         income: 7.5
         points: 7.5
         experience: 7.5
-    custom-kill:
-      Digger:
-        income: 10.0
-        points: 10.0
-        experience: 10.0
     max-level: 200
   Farmer:
     fullname: Farmer
@@ -1079,117 +1073,121 @@ Jobs:
       Id: 290
       Data: 0
     Tame:
-      Wolf: 
-        income: 5.0
-        points: 5.0
-        experience: 5.0
-      Horse: 
-        income: 5.0
-        points: 5.0
-        experience: 5.0
+      Wolf:
+        income: 6.0
+        points: 6.0
+        experience: 12.0
+      Ocelot:
+        income: 6.0
+        points: 6.0
+        experience: 12.0
+      Horse:
+        income: 6.0
+        points: 6.0
+        experience: 12.0
     Breed:
       Wolf:
         income: 4.0
         points: 4.0
-        experience: 5.0
+        experience: 4.0
       Ocelot:
         income: 4.0
         points: 4.0
-        experience: 5.0
+        experience: 4.0
       Pig:
         income: 4.0
         points: 4.0
-        experience: 5.0
+        experience: 4.0
       Cow:
         income: 4.0
         points: 4.0
-        experience: 5.0
+        experience: 4.0
       Horse:
         income: 4.0
         points: 4.0
-        experience: 5.0
+        experience: 4.0
       Rabbit:
         income: 4.0
         points: 4.0
-        experience: 5.0
+        experience: 4.0
       Sheep:
         income: 4.0
         points: 4.0
-        experience: 5.0
+        experience: 4.0
       Chicken:
         income: 4.0
         points: 4.0
-        experience: 5.0
+        experience: 4.0
     Shear:
       Red:
         income: 4.0
         points: 4.0
-        experience: 5.0
+        experience: 4.0
       Orange:
         income: 4.0
         points: 4.0
-        experience: 5.0 
+        experience: 4.0 
       Yellow:
         income: 4.0
         points: 4.0
-        experience: 5.0 
+        experience: 4.0 
       Green:
         income: 4.0
         points: 4.0
-        experience: 5.0 
+        experience: 4.0 
       Blue:
         income: 4.0
         points: 4.0
-        experience: 5.0 
+        experience: 4.0 
       'Light Blue':
         income: 4.0
         points: 4.0
-        experience: 5.0 
+        experience: 4.0 
       Magenta:
         income: 4.0
         points: 4.0
-        experience: 5.0 
+        experience: 4.0 
       Pink:
         income: 4.0
         points: 4.0
-        experience: 5.0 
+        experience: 4.0 
       White:
         income: 4.0
         points: 4.0
-        experience: 5.0 
+        experience: 4.0
       'Light Gray':
         income: 4.0
         points: 4.0
-        experience: 5.0 
+        experience: 4.0
       Black:
         income: 4.0
         points: 4.0
-        experience: 5.0 
+        experience: 4.0
       Brown:
         income: 4.0
         points: 4.0
-        experience: 5.0 
+        experience: 4.0 
       Purple:
         income: 4.0
         points: 4.0
-        experience: 5.0 
+        experience: 4.0
       Cyan:
         income: 4.0
         points: 4.0
-        experience: 5.0 
+        experience: 4.0 
       Gray:
         income: 4.0
         points: 4.0
-        experience: 5.0 
+        experience: 4.0 
       'Lime Green':
         income: 4.0
         points: 4.0
-        experience: 5.0 
+        experience: 4.0 
     Milk:
       Cow:
-        income: 5.0
-        points: 5.0
-        experience: 5.0
+        income: 4.0
+        points: 4.0
+        experience: 4.0
     Break:
       CHORUS_PLANT:
         income: 1.5
