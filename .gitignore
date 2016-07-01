@@ -40,4 +40,5 @@
 /plugins/MassiveCore/*
 !/plugins/MassiveCore/conf.json
 /plugins/MinePacks/backpack.db
+/plugins/dynmap/Salyrion.pending
 /Salyrion

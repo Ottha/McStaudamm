@@ -2,7 +2,7 @@ worlds:
   Salyrion:
     ==: MVWorld
     hidden: 'false'
-    alias: ''
+    alias: Salyrion
     color: WHITE
     style: NORMAL
     pvp: 'true'
