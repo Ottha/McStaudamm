@@ -22,9 +22,37 @@ groups:
       prefix: '&e'
       build: false
       suffix: ''
+  Owner:
+    default: false
+    permissions:
+    - +vanish.effects.toggle.all
+    - -vanish.effects.*
+    - '*'
+    inheritance:
+    - admin
+    info:
+      prefix: '&4'
+      build: true
+      suffix: ''
   Builder:
     default: false
-    permissions: []
+    permissions:
+    - craftconomy.bank.balance
+    - craftconomy.bank.create
+    - craftconomy.bank.deposit
+    - craftconomy.bank.list
+    - craftconomy.bank.perm
+    - craftconomy.bank.withdraw
+    - craftconomy.currency.info
+    - craftconomy.money.balance
+    - craftconomy.money.log
+    - craftconomy.money.pay
+    - craftconomy.money.top
+    - jobs.command.browse
+    - jobs.command.help
+    - jobs.command.join
+    - jobs.command.join.*
+    - jobs.command.leave
     inheritance:
     - default
     - g:essentials_builder
@@ -59,17 +87,5 @@ groups:
     - g:vanish_admin
     info:
       prefix: '&c'
-      build: true
-      suffix: ''
-  Owner:
-    default: false
-    permissions:
-    - '*'
-    - -vanish.effects.*
-    - +vanish.effects.toggle.all
-    inheritance:
-    - admin
-    info:
-      prefix: '&4'
       build: true
       suffix: ''
