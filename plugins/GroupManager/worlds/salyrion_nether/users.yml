@@ -1,0 +1,26 @@
+users:
+  04ee6a9a-2c8b-45ae-9572-fd8491aafcc0:
+    lastname: QuonDarek
+    group: Builder
+    subgroups: []
+    permissions: []
+  3c41e575-a551-4255-9051-1dba65d9a71f:
+    lastname: crb643
+    group: Builder
+    subgroups: []
+    permissions: []
+  ElgarL:
+    group: Moderator
+    subgroups: []
+    permissions:
+    - groupmanager.noofflineperms
+  KHobbits:
+    group: Moderator
+    subgroups: []
+    permissions:
+    - groupmanager.noofflineperms
+  snowleo:
+    group: Builder
+    subgroups: []
+    permissions:
+    - groupmanager.noofflineperms
