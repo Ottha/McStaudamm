@@ -37,6 +37,10 @@ groups:
   Builder:
     default: false
     permissions:
+    - backpack.fullpickup
+    - backpack.keepondeath
+    - backpack.size.*
+    - backpack.use
     - craftconomy.bank.balance
     - craftconomy.bank.create
     - craftconomy.bank.deposit
@@ -53,6 +57,7 @@ groups:
     - jobs.command.join
     - jobs.command.join.*
     - jobs.command.leave
+    - Salyrion
     inheritance:
     - default
     - g:essentials_builder
