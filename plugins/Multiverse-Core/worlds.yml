@@ -2,7 +2,7 @@ worlds:
   Salyrion_nether:
     ==: MVWorld
     hidden: 'false'
-    alias: ''
+    alias: Salyrion_nether
     color: WHITE
     style: NORMAL
     pvp: 'true'
