@@ -1,4 +1,3 @@
-
 #######################################################################
 # +-----------------------------------------------------------------+ #
 # |                        Biome Inheritance                        | #
@@ -191,7 +190,7 @@ RiverCustomHeightControl: 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0,
 StoneBlock: STONE
 
 # Surface block, usually GRASS.
-SurfaceBlock: GRASS
+SurfaceBlock: DIRT
 
 # Block from stone to surface, like dirt in most biomes.
 GroundBlock: GRAVEL
@@ -251,7 +250,7 @@ CooledLavaBlock: STATIONARY_LAVA
 # When this value is around 0.2, snow will fall on mountain peaks above y=90.
 # When this value is around 0.1, the whole biome will be covered in snow and ice.
 # However, on default biomes, this won't do anything except changing the grass and leaves colors slightly.
-BiomeTemperature: 0.5
+BiomeTemperature: 0.05
 
 # Biome wetness. Float value from 0.0 to 1.0.
 # If this biome is a custom biome, and this value is set to 0, no rain will fall.
@@ -346,13 +345,13 @@ SmallLake(WATER,4,7.0,8,120)
 SmallLake(GRAVEL,4,7.0,8,120)
 UnderGroundLake(25,60,2,5.0,0,50)
 Dungeon(8,100.0,0,128)
-Ore(GOLD_ORE,8,2,100.0,0,32,STONE)
 Ore(DIRT,32,5,100.0,0,200,STONE)
 Ore(GRAVEL,32,5,100.0,0,200,STONE)
 Ore(COAL_ORE,48,4,100.0,0,130,STONE)
 Ore(IRON_ORE,32,5,100.0,0,150,STONE)
 Ore(GOLD_ORE,24,5,100.0,0,140,STONE)
-Ore(DIAMOND_ORE,8,10,100.0,0,90,STONE)
+Ore(DIAMOND_ORE,16,10,100.0,0,90,STONE)
+Ore(DIAMOND_ORE,8,10,100.0,0,120,STONE)
 UnderWaterOre(SAND,7,1,100.0,DIRT,GRASS)
 UnderWaterOre(CLAY,4,1,100.0,DIRT,CLAY)
 CustomObject(UseWorld)

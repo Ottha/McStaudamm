@@ -1,4 +1,3 @@
-
 #######################################################################
 # +-----------------------------------------------------------------+ #
 # |                        Biome Inheritance                        | #
@@ -346,9 +345,15 @@ UnderGroundLake(25,60,2,5.0,0,30)
 Dungeon(8,100.0,0,128)
 UnderWaterOre(SAND,7,4,100.0,DIRT,GRASS)
 UnderWaterOre(CLAY,4,1,100.0,DIRT,CLAY)
-Ore(COAL_ORE,48,4,100.0,0,90,STONE)
-Ore(IRON_ORE,24,2,100.0,0,120,STONE)
-Ore(GOLD_ORE,16,2,100.0,0,100,STONE)
+Ore(DIRT,16,5,100.0,0,200,STONE)
+Ore(GRAVEL,16,5,100.0,0,200,STONE)
+Ore(COAL_ORE,48,2,100.0,0,90,STONE)
+Ore(IRON_ORE,32,5,100.0,0,120,STONE)
+Ore(GOLD_ORE,16,5,100.0,0,100,STONE)
+Ore(STONE:5,8,5,100.0,0,120,STONE)
+Ore(STONE:5,16,2,100.0,0,100,STONE)
+Ore(DIAMOND_ORE,8,4,100.0,0,100,STONE)
+Ore(COAL_ORE,8,3,100.0,0,90,STONE)
 Liquid(WATER,1,75.0,8,128,STONE)
 CustomObject(UseWorld)
 Tree(2,bergbaum1,10,bergbaum2,10,bergbaum3,10,bergbaum4,10,bergbaum5,10,bergbaum6,10)

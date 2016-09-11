@@ -13,6 +13,9 @@
 /BuildData
 /apache-maven-3.2.5
 /Setrolas
+/Kaldara
+/Kaldara_biome.png
+/Kaldara_temperature.png
 /Spigot
 /Tarlion
 /work
@@ -47,3 +50,5 @@
 /plugins/dynmap/ids-by-ip.txt
 /plugins/dynmap/web/tiles/_markers_/marker_Mandoras.json
 /plugins/dynmap/web/tiles/_markers_/marker_Tarlion.json
+/plugins/dynmap/Mandoras.pending
+/plugins/dynmap/Kaldara.pending

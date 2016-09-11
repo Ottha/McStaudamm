@@ -1,4 +1,3 @@
-
 #######################################################################
 # +-----------------------------------------------------------------+ #
 # |                        Biome Inheritance                        | #
@@ -346,6 +345,9 @@ UnderGroundLake(25,60,2,5.0,0,30)
 Dungeon(8,100.0,0,128)
 UnderWaterOre(SAND,7,4,100.0,DIRT,GRASS)
 UnderWaterOre(CLAY,4,1,100.0,DIRT,CLAY)
+Ore(DIRT,8,2,100.0,0,200,STONE)
+Ore(GRAVEL,8,2,100.0,0,200,STONE)
+Ore(DIAMOND_ORE,8,4,100.0,0,45,STONE)
 Ore(COAL_ORE,32,2,100.0,0,60,STONE)
 Ore(IRON_ORE,16,5,100.0,0,80,STONE)
 Liquid(WATER,4,100.0,8,128,STONE)

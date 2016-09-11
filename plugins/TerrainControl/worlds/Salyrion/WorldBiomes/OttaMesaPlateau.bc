@@ -1,4 +1,3 @@
-
 #######################################################################
 # +-----------------------------------------------------------------+ #
 # |                        Biome Inheritance                        | #
@@ -369,6 +368,7 @@ Reed(SUGAR_CANE_BLOCK,5,100.0,0,256,GRASS,DIRT,SAND)
 Cactus(CACTUS,10,100.0,0,256,SAND)
 Tree(10,Valley_DeadBush,40)
 Tree(2,Valley_Cactus_basic,20)
+Tree(1,we-DeadTree01,5,we-DeadTree02,5,we-DeadTree03,5,we-DeadTree04,5)
 Liquid(WATER,20,100.0,8,256,STONE)
 Liquid(LAVA,10,100.0,8,256,STONE)
 

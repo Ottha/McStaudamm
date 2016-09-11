@@ -1,4 +1,3 @@
-
 #######################################################################
 # +-----------------------------------------------------------------+ #
 # |                        Biome Inheritance                        | #
@@ -346,7 +345,7 @@ UnderGroundLake(25,60,2,5.0,0,50)
 Dungeon(8,100.0,0,128)
 Ore(COAL_ORE,16,5,100.0,0,50,STONE)
 CustomObject(UseWorld)
-Tree(10,Taiga1,35,Taiga2,70)
+Tree(8,Taiga1,25,Taiga2,35,we-Larch01,25,we-Larch02,25)
 Grass(LONG_GRASS:1,NotGrouped,10,100.0,GRASS,DIRT)
 Liquid(WATER,20,100.0,8,128,STONE)
 Liquid(LAVA,10,100.0,8,128,STONE)

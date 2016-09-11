@@ -1,4 +1,3 @@
-
 #######################################################################
 # +-----------------------------------------------------------------+ #
 # |                        Biome Inheritance                        | #
@@ -64,7 +63,7 @@ IsleInBiome: OttaMountainEdge
 # Valid values range from 0 to GenerationDepth.
 # Larger numbers give *smaller* islands. The biome must be smaller than the biome it's going
 # to spawn in, so the BiomeSizeWhenIsle number must be larger than the BiomeSize of the other biome.
-BiomeSizeWhenIsle: 8
+BiomeSizeWhenIsle: 7
 
 # Rarity of this biome when spawned as an ilse biome.
 BiomeRarityWhenIsle: 100
@@ -101,16 +100,16 @@ BiomeSizeWhenBorder: 8
 # BiomeHeight mean how much height will be added in terrain generation
 # It is double value from -10.0 to 10.0
 # Value 0.0 equivalent half of map height with all other default settings
-BiomeHeight: 0.35
+BiomeHeight: 0.25
 
 # Biome volatility.
-BiomeVolatility: 0.35
+BiomeVolatility: 0.55
 
 # Smooth radius between biomes. Must be between 0 and 32, inclusive. The resulting
 # smooth radius seems to be  (thisSmoothRadius + 1 + smoothRadiusOfBiomeOnOtherSide) * 4 .
 # So if two biomes next to each other have both a smooth radius of 2, the
 # resulting smooth area will be (2 + 1 + 2) * 4 = 20 blocks wide.
-SmoothRadius: 4
+SmoothRadius: 8
 
 # If this value is greater than 0, then it will affect how much, on average, the terrain will rise before leveling off when it begins to increase in elevation.
 # If the value is less than 0, then it will cause the terrain to either increase to a lower height before leveling out or decrease in height if the value is a large enough negative.
@@ -122,14 +121,14 @@ MaxAverageDepth: 0.0
 
 # Another type of noise. This noise is independent from biomes. The larger the values the more chaotic/volatile landscape generation becomes.
 # Setting the values to negative will have the opposite effect and make landscape generation calmer/gentler.
-Volatility1: -0.3
+Volatility1: -0.1
 
 Volatility2: 1.0
 
 # Adjust the weight of the corresponding volatility settings. This allows you to change how prevalent you want either of the volatility settings to be in the terrain.
 VolatilityWeight1: 1.2
 
-VolatilityWeight2: 1.0
+VolatilityWeight2: 1.4
 
 # Disable all noises except Volatility1 and Volatility2. Also disable default block chance from height.
 DisableBiomeHeight: false
@@ -346,10 +345,12 @@ UnderGroundLake(25,60,2,5.0,0,30)
 Dungeon(8,100.0,0,128)
 UnderWaterOre(SAND,7,4,100.0,DIRT,GRASS)
 UnderWaterOre(CLAY,4,1,100.0,DIRT,CLAY)
+Ore(DIRT,16,5,100.0,0,200,STONE)
+Ore(GRAVEL,16,5,100.0,0,200,STONE)
 Ore(COAL_ORE,48,2,100.0,0,90,STONE)
 Ore(IRON_ORE,24,5,100.0,0,120,STONE)
 Ore(STONE:5,16,2,100.0,0,100,STONE)
-Ore(DIAMOND_ORE,8,2,100.0,0,100,STONE)
+Ore(DIAMOND_ORE,8,3,100.0,0,100,STONE)
 Ore(COAL_ORE,8,3,100.0,0,90,STONE)
 Liquid(WATER,4,100.0,8,128,STONE)
 CustomObject(UseWorld)

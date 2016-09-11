@@ -1,4 +1,3 @@
-
 #######################################################################
 # +-----------------------------------------------------------------+ #
 # |                        Biome Inheritance                        | #
@@ -30,7 +29,7 @@ ResourceInheritance: true
 # Isle biomes:   BiomeSizeWhenIsle (see below)
 # Border biomes: BiomeSizeWhenBorder (see below)
 # River biomes:  RiverSize (see WorldConfig)
-BiomeSize: 7
+BiomeSize: 6
 
 # Biome rarity from 100 to 1. If this is normal or ice biome - chance for spawn this biome then others.
 # Example for normal biome :
@@ -38,7 +37,7 @@ BiomeSize: 7
 #   50 rarity mean 1/11 chance than other
 # For isle biomes see the BiomeRarityWhenIsle setting below.
 # Doesn`t work on Ocean and River (frozen versions too) biomes when not added as normal biome.
-BiomeRarity: 98
+BiomeRarity: 100
 
 # The hexadecimal color value of this biome. Used in the output of the /tc map command,
 # and used in the input of BiomeMode: FromImage.
@@ -58,7 +57,7 @@ ReplaceToBiomeName:
 
 # List of biomes in which this biome will spawn as an isle.
 # For example, Mushroom Isles spawn inside the Ocean biome.
-IsleInBiome: Ocean
+IsleInBiome: OttaOcean
 
 # Size of this biome when spawned as an ilse biome.
 # Valid values range from 0 to GenerationDepth.
@@ -67,7 +66,7 @@ IsleInBiome: Ocean
 BiomeSizeWhenIsle: 7
 
 # Rarity of this biome when spawned as an ilse biome.
-BiomeRarityWhenIsle: 98
+BiomeRarityWhenIsle: 96
 
 ######################
 # Border biomes only #

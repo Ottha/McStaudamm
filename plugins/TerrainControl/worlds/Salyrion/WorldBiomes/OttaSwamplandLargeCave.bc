@@ -1,4 +1,3 @@
-
 #######################################################################
 # +-----------------------------------------------------------------+ #
 # |                        Biome Inheritance                        | #
@@ -350,7 +349,7 @@ Ore(GLOWSTONE,2,10,100.0,10,15,STONE)
 Ore(MOSSY_COBBLESTONE,32,20,100.0,25,40,STONE)
 CustomObject(UseWorld)
 Vines(10,100.0,30,40)
-Tree(2,SwampTree,100)
+Tree(1,SwampTree,25,SwampTree,25,we-Willow01,25,we-Willow02,25,we-Willow03,25)
 SmallLake(WATER,4,25.0,5,10)
 Plant(BlueOrchid,5,100.0,0,256,GRASS,DIRT)
 Plant(RedMushroom,16,50.0,0,256,GRASS,DIRT)

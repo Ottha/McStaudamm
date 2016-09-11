@@ -1,4 +1,3 @@
-
 #######################################################################
 # +-----------------------------------------------------------------+ #
 # |                        Biome Inheritance                        | #
@@ -64,7 +63,7 @@ IsleInBiome: OttaFlatPlains
 # Valid values range from 0 to GenerationDepth.
 # Larger numbers give *smaller* islands. The biome must be smaller than the biome it's going
 # to spawn in, so the BiomeSizeWhenIsle number must be larger than the BiomeSize of the other biome.
-BiomeSizeWhenIsle: 9
+BiomeSizeWhenIsle: 8
 
 # Rarity of this biome when spawned as an ilse biome.
 BiomeRarityWhenIsle: 96
@@ -352,6 +351,7 @@ UnderWaterOre(SAND,7,4,100.0,DIRT,GRASS)
 UnderWaterOre(CLAY,4,1,100.0,DIRT,CLAY)
 Grass(LONG_GRASS:1,NotGrouped,100,100.0,GRASS,DIRT)
 Tree(10,ChapparalShrub01,20,ChapparalShrub02,15,ChapparalShrub03,25,ChapparalShrub04,40)
+Tree(1,we-Bonsai01,20,we-Bonsai02,20,we-Bonsai03,20)
 CustomObject(FieldRockMedium)
 CustomObject(FieldRockTall)
 CustomObject(FieldRockShard)

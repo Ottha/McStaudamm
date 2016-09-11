@@ -1,4 +1,3 @@
-
 #######################################################################
 # +-----------------------------------------------------------------+ #
 # |                        Biome Inheritance                        | #
@@ -30,7 +29,7 @@ ResourceInheritance: true
 # Isle biomes:   BiomeSizeWhenIsle (see below)
 # Border biomes: BiomeSizeWhenBorder (see below)
 # River biomes:  RiverSize (see WorldConfig)
-BiomeSize: 11
+BiomeSize: 10
 
 # Biome rarity from 100 to 1. If this is normal or ice biome - chance for spawn this biome then others.
 # Example for normal biome :
@@ -64,7 +63,7 @@ IsleInBiome: OttaMountainEdge
 # Valid values range from 0 to GenerationDepth.
 # Larger numbers give *smaller* islands. The biome must be smaller than the biome it's going
 # to spawn in, so the BiomeSizeWhenIsle number must be larger than the BiomeSize of the other biome.
-BiomeSizeWhenIsle: 11
+BiomeSizeWhenIsle: 10
 
 # Rarity of this biome when spawned as an ilse biome.
 BiomeRarityWhenIsle: 100

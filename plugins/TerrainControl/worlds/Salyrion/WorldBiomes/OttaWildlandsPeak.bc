@@ -1,4 +1,3 @@
-
 #######################################################################
 # +-----------------------------------------------------------------+ #
 # |                        Biome Inheritance                        | #
@@ -353,6 +352,7 @@ UnderWaterOre(SAND,7,4,100.0,DIRT,GRASS)
 UnderWaterOre(CLAY,4,1,100.0,DIRT,CLAY)
 CustomObject(UseWorld)
 Tree(1,tbush1,25,tbush2,25,tbush3,25,tbush4,25)
+Tree(1,we-MelonenBaum01,10,we-komischerBaum01,10)
 Plant(Sunflower,1,100.0,0,256,GRASS,DIRT)
 Plant(Lilac,1,100.0,0,256,GRASS,DIRT)
 Plant(LargeFern,4,100.0,0,256,GRASS,DIRT)

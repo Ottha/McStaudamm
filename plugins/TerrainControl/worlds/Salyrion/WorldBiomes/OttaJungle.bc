@@ -1,4 +1,3 @@
-
 #######################################################################
 # +-----------------------------------------------------------------+ #
 # |                        Biome Inheritance                        | #
@@ -30,7 +29,7 @@ ResourceInheritance: true
 # Isle biomes:   BiomeSizeWhenIsle (see below)
 # Border biomes: BiomeSizeWhenBorder (see below)
 # River biomes:  RiverSize (see WorldConfig)
-BiomeSize: 7
+BiomeSize: 4
 
 # Biome rarity from 100 to 1. If this is normal or ice biome - chance for spawn this biome then others.
 # Example for normal biome :
@@ -38,7 +37,7 @@ BiomeSize: 7
 #   50 rarity mean 1/11 chance than other
 # For isle biomes see the BiomeRarityWhenIsle setting below.
 # Doesn`t work on Ocean and River (frozen versions too) biomes when not added as normal biome.
-BiomeRarity: 99
+BiomeRarity: 100
 
 # The hexadecimal color value of this biome. Used in the output of the /tc map command,
 # and used in the input of BiomeMode: FromImage.
@@ -377,7 +376,6 @@ Liquid(LAVA,10,100.0,8,128,STONE)
 # BigJungle - for when 4 jungle saplings grow at once.
 # RedMushroom/BrownMushroom - will only grow when bonemeal is used.
 Sapling(Oak,TreeDeciduous01,5,TreeDeciduous02,5,TreeDeciduous03,5,TreeDeciduous04,5,TreeDeciduous05,5,TreeDeciduous06,5,TreeDeciduous07,5,TreeOak01,1,TreeOak02,1,TreeOak03,1,BigTree,3,Tree,100)
-Sapling(Redwood,TreeLarch01,3,TreeLarch02,3,TreeLarch03,3,TreeCedar01,7,TreeCedarHigh01,6,TreeCedarHigh02,6,Taiga1,50,Taiga2,100)
 
 #######################################################################
 # +-----------------------------------------------------------------+ #
