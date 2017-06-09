@@ -44,9 +44,3 @@ database:
   password: walrus
   url: jdbc:sqlite:{DIR}{NAME}.db
 worlds:
-  Mandoras:
-    generator: TerrainControl
-  Tarlion:
-    generator: TerrainControl
-  Setrolas:
-    generator: TerrainControl
