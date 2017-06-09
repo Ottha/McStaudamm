@@ -38,20 +38,26 @@ groups:
     default: false
     permissions:
     - backpack.fullpickup
+    - backpack.keepondeath
     - backpack.size.*
     - backpack.use
     - craftconomy.bank.balance
     - craftconomy.bank.create
     - craftconomy.bank.deposit
     - craftconomy.bank.list
+    - craftconomy.bank.perm
     - craftconomy.bank.withdraw
     - craftconomy.currency.info
     - craftconomy.money.balance
     - craftconomy.money.log
     - craftconomy.money.pay
     - craftconomy.money.top
-    - essentials.build
-    - essentials.destroy
+    - jobs.command.browse
+    - jobs.command.help
+    - jobs.command.join
+    - jobs.command.join.*
+    - jobs.command.leave
+    - Salyrion
     inheritance:
     - default
     - g:essentials_builder

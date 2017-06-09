@@ -1,62 +1,0 @@
-save-all
->stop
->[2K[15:53:01 INFO]: Unknown command. Type "/help" for help.[m
->[2K[15:53:01 INFO]: Stopping the server
->[2K[15:53:01 INFO]: Stopping server
->[2K[15:53:01 INFO]: [EssentialsAntiBuild] Disabling EssentialsAntiBuild v2.0.1-b362
->[2K[15:53:01 INFO]: [EssentialsChat] Disabling EssentialsChat v2.0.1-b362
->[2K[15:53:01 INFO]: [EssentialsGeoIP] Disabling EssentialsGeoIP v2.0.1-b362
->[2K[15:53:01 INFO]: [CreativeGates] Disabling CreativeGates v2.8.19
->[2K[15:53:01 INFO]: [0;36;22m[[0;36;1mCreativeGates 2.8.19[0;36;22m] [0;33;1mDisabled[m
->[2K[15:53:01 INFO]: [EssentialsSpawn] Disabling EssentialsSpawn v2.0.1-b362
->[2K[15:53:01 INFO]: [EssentialsProtect] Disabling EssentialsProtect v2.0.1-b362
->[2K[15:53:01 INFO]: [Shopkeepers] Disabling Shopkeepers v1.76
->[2K[15:53:01 INFO]: [EssentialsXMPP] Disabling EssentialsXMPP v2.0.1-b362
->[2K[15:53:01 INFO]: [Citizens] Disabling Citizens v2.0.19-SNAPSHOT (build 1374)
->[2K[15:53:01 INFO]: [WorldBorder] Disabling WorldBorder v1.8.3
->[2K[15:53:01 INFO]: [WorldBorder] [CONFIG] Border-checking timed task stopped.
->[2K[15:53:01 INFO]: [dynmap] Disabling dynmap v2.3-1142
->[2K[15:53:01 INFO]: [dynmap] Unloaded 11 components.
->[2K[15:53:01 INFO]: [dynmap] Stopping map renderer...
->[2K[15:53:02 INFO]: [dynmap] Disabled
->[2K[15:53:02 INFO]: [Essentials] Disabling Essentials v2.0.1-b362
->[2K[15:53:02 INFO]: [Vault][Economy] Essentials Economy unhooked.
->[2K[15:53:02 INFO]: [TerrainControl] Disabling TerrainControl v2.8.2-SNAPSHOT
->[2K[15:53:02 INFO]: [Multiverse-Core] Disabling Multiverse-Core v2.5-b691
->[2K[15:53:02 INFO]: [Vault] Disabling Vault v1.5.0-b28
->[2K[15:53:02 INFO]: [MinePacks] Disabling MinePacks v1.16.3
->[2K[15:53:02 INFO]: [0;36;22m[[0;36;1mMassiveCore 2.8.19[0;36;22m] [0;33;1m[0;31;1mIntegration Deactivated [0;35;1mIntegrationVault[m
->[2K[15:53:02 INFO]: [MinePacks] Checking for updates ...
->[2K[15:53:02 WARN]: 88219 [Server thread] INFO com.zaxxer.hikari.pool.HikariPool - HikariPool-0 - is closing down.
-
->[2K[15:53:03 INFO]: [MinePacks] MinePacks has been disabled.
->[2K[15:53:03 INFO]: [MassiveCore] Disabling MassiveCore v2.8.19
->[2K[15:53:03 INFO]: [0;36;22m[[0;36;1mMassiveCore 2.8.19[0;36;22m] [0;33;1m[0;33;1mMixin [0;35;1mMixinWorld[0;33;1m set to [0;35;1mDefault[m
->[2K[15:53:03 INFO]: [0;36;22m[[0;36;1mMassiveCore 2.8.19[0;36;22m] [0;33;1m[0;33;1mMixin [0;35;1mMixinVisibility[0;33;1m set to [0;35;1mDefault[m
->[2K[15:53:03 INFO]: [0;36;22m[[0;36;1mMassiveCore 2.8.19[0;36;22m] [0;33;1m[0;33;1mMixin [0;35;1mMixinTitle[0;33;1m set to [0;35;1mDefault[m
->[2K[15:53:03 INFO]: [0;36;22m[[0;36;1mMassiveCore 2.8.19[0;36;22m] [0;33;1m[0;33;1mMixin [0;35;1mMixinTeleport[0;33;1m set to [0;35;1mDefault[m
->[2K[15:53:03 INFO]: [0;36;22m[[0;36;1mMassiveCore 2.8.19[0;36;22m] [0;33;1m[0;33;1mMixin [0;35;1mMixinSenderPs[0;33;1m set to [0;35;1mDefault[m
->[2K[15:53:03 INFO]: [0;36;22m[[0;36;1mMassiveCore 2.8.19[0;36;22m] [0;33;1m[0;33;1mMixin [0;35;1mMixinPlayed[0;33;1m set to [0;35;1mDefault[m
->[2K[15:53:03 INFO]: [0;36;22m[[0;36;1mMassiveCore 2.8.19[0;36;22m] [0;33;1m[0;33;1mMixin [0;35;1mMixinModification[0;33;1m set to [0;35;1mDefault[m
->[2K[15:53:03 INFO]: [0;36;22m[[0;36;1mMassiveCore 2.8.19[0;36;22m] [0;33;1m[0;33;1mMixin [0;35;1mMixinMessage[0;33;1m set to [0;35;1mDefault[m
->[2K[15:53:03 INFO]: [0;36;22m[[0;36;1mMassiveCore 2.8.19[0;36;22m] [0;33;1m[0;33;1mMixin [0;35;1mMixinKick[0;33;1m set to [0;35;1mDefault[m
->[2K[15:53:03 INFO]: [0;36;22m[[0;36;1mMassiveCore 2.8.19[0;36;22m] [0;33;1m[0;33;1mMixin [0;35;1mMixinInventory[0;33;1m set to [0;35;1mDefault[m
->[2K[15:53:03 INFO]: [0;36;22m[[0;36;1mMassiveCore 2.8.19[0;36;22m] [0;33;1m[0;33;1mMixin [0;35;1mMixinGamemode[0;33;1m set to [0;35;1mDefault[m
->[2K[15:53:03 INFO]: [0;36;22m[[0;36;1mMassiveCore 2.8.19[0;36;22m] [0;33;1m[0;33;1mMixin [0;35;1mMixinDisplayName[0;33;1m set to [0;35;1mDefault[m
->[2K[15:53:03 INFO]: [0;36;22m[[0;36;1mMassiveCore 2.8.19[0;36;22m] [0;33;1m[0;33;1mMixin [0;35;1mMixinCommand[0;33;1m set to [0;35;1mDefault[m
->[2K[15:53:03 INFO]: [0;36;22m[[0;36;1mMassiveCore 2.8.19[0;36;22m] [0;33;1m[0;33;1mMixin [0;35;1mMixinActual[0;33;1m set to [0;35;1mDefault[m
->[2K[15:53:03 INFO]: [0;36;22m[[0;36;1mMassiveCore 2.8.19[0;36;22m] [0;33;1m[0;33;1mMixin [0;35;1mMixinActionbar[0;33;1m set to [0;35;1mDefault[m
->[2K[15:53:03 INFO]: [0;36;22m[[0;36;1mMassiveCore 2.8.19[0;36;22m] [0;33;1m[0;33;1mMixin [0;35;1mMixinEvent[0;33;1m set to [0;35;1mDefault[m
->[2K[15:53:03 INFO]: [0;36;22m[[0;36;1mMassiveCore 2.8.19[0;36;22m] [0;33;1mDisabled[m
->[2K[15:53:03 INFO]: [Craftconomy3] Disabling Craftconomy3 v3.3-e72ac42-trv178
->[2K[15:53:03 INFO]: [Craftconomy3] Closing the connection to the database.
->[2K[15:53:03 INFO]: [WorldEdit] Disabling WorldEdit v6.1.3;7a097ca
->[2K[15:53:03 INFO]: [GroupManager] Disabling GroupManager v2.0.1-b332
->[2K[15:53:03 INFO]: GroupManager - INFO - Scheduled Data Saving is disabled!
->[2K[15:53:03 INFO]: GroupManager version 2.0.1-b332 is disabled!
->[2K[15:53:03 INFO]: Saving players
->[2K[15:53:03 INFO]: Saving worlds
->[2K[15:53:03 INFO]: Saving chunks for level 'Mandoras'/Overworld
->[2K[15:53:03 INFO]: Saving chunks for level 'Mandoras_nether'/Nether
->[2K[15:53:03 INFO]: Saving chunks for level 'Mandoras_the_end'/The End
->[m

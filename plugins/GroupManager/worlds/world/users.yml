@@ -1,28 +1,21 @@
 users:
-  4a1c377e-2d2a-4f8e-966c-8500d002da28:
-    lastname: null
+  04ee6a9a-2c8b-45ae-9572-fd8491aafcc0:
+    lastname: QuonDarek
     group: Builder
     subgroups: []
     permissions: []
-    info:
-      Name: Simmel_87
+  08c5cdec-128e-42b3-9f81-080c4cb7c486:
+    lastname: OttaxXx
+    group: Owner
+    subgroups: []
+    permissions: []
+  3c41e575-a551-4255-9051-1dba65d9a71f:
+    lastname: crb643
+    group: Builder
+    subgroups: []
+    permissions: []
   5df427f2-1638-4c5e-aebc-1ccfa12a31fe:
     lastname: xFritschi
     group: Builder
     subgroups: []
     permissions: []
-  ElgarL:
-    group: Moderator
-    subgroups: []
-    permissions:
-    - groupmanager.noofflineperms
-  KHobbits:
-    group: Moderator
-    subgroups: []
-    permissions:
-    - groupmanager.noofflineperms
-  snowleo:
-    group: Builder
-    subgroups: []
-    permissions:
-    - groupmanager.noofflineperms
